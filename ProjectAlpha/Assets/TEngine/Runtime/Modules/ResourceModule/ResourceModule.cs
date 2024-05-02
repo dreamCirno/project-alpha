@@ -63,6 +63,7 @@ namespace TEngine
                 {
                     playMode = EPlayMode.OfflinePlayMode;
                 }
+
                 //运行时使用。
                 return playMode;
 #endif
@@ -74,7 +75,7 @@ namespace TEngine
 #endif
             }
         }
-        
+
         /// <summary>
         /// 是否支持边玩边下载。
         /// </summary>
@@ -164,31 +165,21 @@ namespace TEngine
         /// </summary>
         public string ReadWritePath => m_ResourceManager.ReadWritePath;
 
-        [SerializeField]
-        private float m_AssetAutoReleaseInterval = 60f;
+        [SerializeField] private float m_AssetAutoReleaseInterval = 60f;
 
-        [SerializeField]
-        private int m_AssetCapacity = 64;
+        [SerializeField] private int m_AssetCapacity = 64;
 
-        [SerializeField]
-        private float m_AssetExpireTime = 60f;
+        [SerializeField] private float m_AssetExpireTime = 60f;
 
-        [SerializeField]
-        private int m_AssetPriority = 0;
-        
+        [SerializeField] private int m_AssetPriority = 0;
+
         /// <summary>
         /// 获取或设置资源对象池自动释放可释放对象的间隔秒数。
         /// </summary>
         public float AssetAutoReleaseInterval
         {
-            get
-            {
-                return m_ResourceManager.AssetAutoReleaseInterval;
-            }
-            set
-            {
-                m_ResourceManager.AssetAutoReleaseInterval = m_AssetAutoReleaseInterval = value;
-            }
+            get { return m_ResourceManager.AssetAutoReleaseInterval; }
+            set { m_ResourceManager.AssetAutoReleaseInterval = m_AssetAutoReleaseInterval = value; }
         }
 
         /// <summary>
@@ -196,14 +187,8 @@ namespace TEngine
         /// </summary>
         public int AssetCapacity
         {
-            get
-            {
-                return m_ResourceManager.AssetCapacity;
-            }
-            set
-            {
-                m_ResourceManager.AssetCapacity = m_AssetCapacity = value;
-            }
+            get { return m_ResourceManager.AssetCapacity; }
+            set { m_ResourceManager.AssetCapacity = m_AssetCapacity = value; }
         }
 
         /// <summary>
@@ -211,14 +196,8 @@ namespace TEngine
         /// </summary>
         public float AssetExpireTime
         {
-            get
-            {
-                return m_ResourceManager.AssetExpireTime;
-            }
-            set
-            {
-                m_ResourceManager.AssetExpireTime = m_AssetExpireTime = value;
-            }
+            get { return m_ResourceManager.AssetExpireTime; }
+            set { m_ResourceManager.AssetExpireTime = m_AssetExpireTime = value; }
         }
 
         /// <summary>
@@ -226,15 +205,10 @@ namespace TEngine
         /// </summary>
         public int AssetPriority
         {
-            get
-            {
-                return m_ResourceManager.AssetPriority;
-            }
-            set
-            {
-                m_ResourceManager.AssetPriority = m_AssetPriority = value;
-            }
+            get { return m_ResourceManager.AssetPriority; }
+            set { m_ResourceManager.AssetPriority = m_AssetPriority = value; }
         }
+
         #endregion
 
         private void Start()
@@ -255,7 +229,8 @@ namespace TEngine
 
             if (PlayMode == EPlayMode.EditorSimulateMode)
             {
-                Log.Info("During this run, Game Framework will use editor resource files, which you should validate first.");
+                Log.Info(
+                    "During this run, Game Framework will use editor resource files, which you should validate first.");
 #if !UNITY_EDITOR
                 PlayMode = EPlayMode.OfflinePlayMode;
 #endif
@@ -302,10 +277,11 @@ namespace TEngine
                 return null;
             }
 
-            return await m_ResourceManager.InitPackage(string.IsNullOrEmpty(packageName) ? PackageName:packageName);
+            return await m_ResourceManager.InitPackage(string.IsNullOrEmpty(packageName) ? PackageName : packageName);
         }
 
         #region 版本更新
+
         /// <summary>
         /// 获取当前资源包版本。
         /// </summary>
@@ -355,12 +331,12 @@ namespace TEngine
                 : YooAssets.GetPackage(customPackageName);
             return package.UpdatePackageManifestAsync(packageVersion, autoSaveVersion, timeout);
         }
-        
+
         /// <summary>
         /// 资源下载器，用于下载当前资源版本所有的资源包文件。
         /// </summary>
         public ResourceDownloaderOperation Downloader { get; set; }
-        
+
         /// <summary>
         /// 创建资源下载器，用于下载当前资源版本所有的资源包文件。
         /// </summary>
@@ -380,7 +356,7 @@ namespace TEngine
                 return Downloader;
             }
         }
-        
+
         /// <summary>
         /// 清理包裹未使用的缓存文件。
         /// </summary>
@@ -404,9 +380,11 @@ namespace TEngine
                 : YooAssets.GetPackage(customPackageName);
             package.ClearPackageSandbox();
         }
+
         #endregion
 
         #region 获取资源
+
         /// <summary>
         /// 检查资源是否存在。
         /// </summary>
@@ -417,7 +395,7 @@ namespace TEngine
         {
             return m_ResourceManager.HasAsset(location, packageName: customPackageName);
         }
-        
+
         /// <summary>
         /// 检查资源定位地址是否有效。
         /// </summary>
@@ -427,7 +405,7 @@ namespace TEngine
         {
             return m_ResourceManager.CheckLocationValid(location, packageName: customPackageName);
         }
-        
+
         /// <summary>
         /// 获取资源信息列表。
         /// </summary>
@@ -460,6 +438,7 @@ namespace TEngine
         {
             return m_ResourceManager.GetAssetInfo(location, packageName: customPackageName);
         }
+
         #endregion
 
         #region 加载资源
@@ -472,7 +451,8 @@ namespace TEngine
         /// <param name="loadAssetCallbacks">加载资源回调函数集。</param>
         /// <param name="userData">用户自定义数据。</param>
         /// <param name="packageName">指定资源包的名称。不传使用默认资源包。</param>
-        public void LoadAssetAsync(string location, Type assetType, LoadAssetCallbacks loadAssetCallbacks, object userData = null, string packageName = "")
+        public void LoadAssetAsync(string location, Type assetType, LoadAssetCallbacks loadAssetCallbacks,
+            object userData = null, string packageName = "")
         {
             LoadAssetAsync(location, assetType, DefaultPriority, loadAssetCallbacks, userData, packageName);
         }
@@ -486,7 +466,8 @@ namespace TEngine
         /// <param name="loadAssetCallbacks">加载资源回调函数集。</param>
         /// <param name="userData">用户自定义数据。</param>
         /// <param name="packageName">指定资源包的名称。不传使用默认资源包。</param>
-        public void LoadAssetAsync(string location, Type assetType, int priority, LoadAssetCallbacks loadAssetCallbacks, object userData, string packageName = "")
+        public void LoadAssetAsync(string location, Type assetType, int priority, LoadAssetCallbacks loadAssetCallbacks,
+            object userData, string packageName = "")
         {
             if (string.IsNullOrEmpty(location))
             {
@@ -532,7 +513,7 @@ namespace TEngine
 
             return m_ResourceManager.LoadGameObject(location, parent, packageName);
         }
-        
+
         /// <summary>
         /// 异步加载资源。
         /// </summary>
@@ -540,14 +521,15 @@ namespace TEngine
         /// <param name="callback">回调函数。</param>
         /// <param name="customPackageName">指定资源包的名称。不传使用默认资源包</param>
         /// <typeparam name="T">要加载资源的类型。</typeparam>
-        public void LoadAsset<T>(string location, Action<T> callback, string customPackageName = "") where T : UnityEngine.Object
+        public void LoadAsset<T>(string location, Action<T> callback, string customPackageName = "")
+            where T : UnityEngine.Object
         {
             if (string.IsNullOrEmpty(location))
             {
                 Log.Error("Asset name is invalid.");
                 return;
             }
-            
+
             m_ResourceManager.LoadAsset<T>(location, callback, packageName: customPackageName);
         }
 
@@ -579,7 +561,8 @@ namespace TEngine
         /// <param name="cancellationToken">取消操作Token。</param>
         /// <param name="packageName">指定资源包的名称。不传使用默认资源包。</param>
         /// <returns>异步游戏物体实例。</returns>
-        public async UniTask<GameObject> LoadGameObjectAsync(string location, Transform parent = null, CancellationToken cancellationToken = default,
+        public async UniTask<GameObject> LoadGameObjectAsync(string location, Transform parent = null,
+            CancellationToken cancellationToken = default,
             string packageName = "")
         {
             if (string.IsNullOrEmpty(location))
@@ -603,7 +586,8 @@ namespace TEngine
             return package.LoadAssetSync<T>(location);
         }
 
-        internal AssetHandle LoadAssetAsyncHandle<T>(string location, string packageName = "") where T : UnityEngine.Object
+        internal AssetHandle LoadAssetAsyncHandle<T>(string location, string packageName = "")
+            where T : UnityEngine.Object
         {
             if (string.IsNullOrEmpty(packageName))
             {
@@ -613,6 +597,7 @@ namespace TEngine
             var package = YooAssets.GetPackage(packageName);
             return package.LoadAssetAsync<T>(location);
         }
+
         #endregion
 
         #region 卸载资源
@@ -627,6 +612,7 @@ namespace TEngine
             {
                 return;
             }
+
             m_ResourceManager.UnloadAsset(asset);
         }
 
@@ -663,8 +649,12 @@ namespace TEngine
         private void Update()
         {
             m_LastUnloadUnusedAssetsOperationElapseSeconds += Time.unscaledDeltaTime;
-            if (m_AsyncOperation == null && (m_ForceUnloadUnusedAssets || m_LastUnloadUnusedAssetsOperationElapseSeconds >= m_MaxUnloadUnusedAssetsInterval ||
-                                             m_PreorderUnloadUnusedAssets && m_LastUnloadUnusedAssetsOperationElapseSeconds >= m_MinUnloadUnusedAssetsInterval))
+            if (m_AsyncOperation == null && (m_ForceUnloadUnusedAssets ||
+                                             m_LastUnloadUnusedAssetsOperationElapseSeconds >=
+                                             m_MaxUnloadUnusedAssetsInterval ||
+                                             m_PreorderUnloadUnusedAssets &&
+                                             m_LastUnloadUnusedAssetsOperationElapseSeconds >=
+                                             m_MinUnloadUnusedAssetsInterval))
             {
                 Log.Info("Unload unused assets...");
                 m_ForceUnloadUnusedAssets = false;

@@ -55,8 +55,9 @@ namespace GameMain
             {
                 m_LoadMetadataAssemblyComplete = true;
             }
-            
-            if (!SettingsUtils.HybridCLRCustomGlobalSettings.Enable || GameModule.Resource.PlayMode == EPlayMode.EditorSimulateMode)
+
+            if (!SettingsUtils.HybridCLRCustomGlobalSettings.Enable ||
+                GameModule.Resource.PlayMode == EPlayMode.EditorSimulateMode)
             {
                 m_MainLogicAssembly = GetMainLogicAssembly();
             }
@@ -75,10 +76,10 @@ namespace GameMain
                                     SettingsUtils.HybridCLRCustomGlobalSettings.AssemblyTextAssetPath,
                                     $"{hotUpdateDllName}{SettingsUtils.HybridCLRCustomGlobalSettings.AssemblyTextAssetExtension}"));
                         }
-                           
+
                         Log.Debug($"LoadAsset: [ {assetLocation} ]");
                         m_LoadAssetCount++;
-                        GameModule.Resource.LoadAsset<TextAsset>(assetLocation,LoadAssetSuccess);
+                        GameModule.Resource.LoadAsset<TextAsset>(assetLocation, LoadAssetSuccess);
                     }
 
                     m_LoadAssemblyWait = true;
@@ -94,21 +95,24 @@ namespace GameMain
                 m_LoadAssemblyComplete = true;
             }
         }
-        
-        protected override void OnUpdate(IFsm<IProcedureManager> procedureOwner, float elapseSeconds, float realElapseSeconds)
+
+        protected override void OnUpdate(IFsm<IProcedureManager> procedureOwner, float elapseSeconds,
+            float realElapseSeconds)
         {
             base.OnUpdate(procedureOwner, elapseSeconds, realElapseSeconds);
             if (!m_LoadAssemblyComplete)
             {
                 return;
             }
+
             if (!m_LoadMetadataAssemblyComplete)
             {
                 return;
             }
+
             AllAssemblyLoadComplete();
         }
-        
+
         private void AllAssemblyLoadComplete()
         {
             ChangeState<ProcedureStartGame>(m_procedureOwner);
@@ -120,18 +124,21 @@ namespace GameMain
                 Log.Fatal($"Main logic assembly missing.");
                 return;
             }
+
             var appType = m_MainLogicAssembly.GetType("GameApp");
             if (appType == null)
             {
                 Log.Fatal($"Main logic type 'GameMain' missing.");
                 return;
             }
+
             var entryMethod = appType.GetMethod("Entrance");
             if (entryMethod == null)
             {
                 Log.Fatal($"Main logic entry method 'Entrance' missing.");
                 return;
             }
+
             object[] objects = new object[] { new object[] { m_HotfixAssemblys } };
             entryMethod.Invoke(appType, objects);
         }
@@ -142,7 +149,8 @@ namespace GameMain
             Assembly mainLogicAssembly = null;
             foreach (var assembly in AppDomain.CurrentDomain.GetAssemblies())
             {
-                if (string.Compare(SettingsUtils.HybridCLRCustomGlobalSettings.LogicMainDllName, $"{assembly.GetName().Name}.dll",
+                if (string.Compare(SettingsUtils.HybridCLRCustomGlobalSettings.LogicMainDllName,
+                        $"{assembly.GetName().Name}.dll",
                         StringComparison.Ordinal) == 0)
                 {
                     mainLogicAssembly = assembly;
@@ -156,7 +164,8 @@ namespace GameMain
                     }
                 }
 
-                if (mainLogicAssembly != null && m_HotfixAssemblys.Count == SettingsUtils.HybridCLRCustomGlobalSettings.HotUpdateAssemblies.Count)
+                if (mainLogicAssembly != null && m_HotfixAssemblys.Count ==
+                    SettingsUtils.HybridCLRCustomGlobalSettings.HotUpdateAssemblies.Count)
                 {
                     break;
                 }
@@ -184,10 +193,12 @@ namespace GameMain
             try
             {
                 var assembly = Assembly.Load(textAsset.bytes);
-                if (string.Compare(SettingsUtils.HybridCLRCustomGlobalSettings.LogicMainDllName, assetName, StringComparison.Ordinal) == 0)
+                if (string.Compare(SettingsUtils.HybridCLRCustomGlobalSettings.LogicMainDllName, assetName,
+                        StringComparison.Ordinal) == 0)
                 {
                     m_MainLogicAssembly = assembly;
                 }
+
                 m_HotfixAssemblys.Add(assembly);
                 Log.Debug($"Assembly [ {assembly.GetName().Name} ] loaded");
             }
@@ -201,6 +212,7 @@ namespace GameMain
             {
                 m_LoadAssemblyComplete = m_LoadAssemblyWait && 0 == m_LoadAssetCount;
             }
+
             GameModule.Resource.UnloadAsset(textAsset);
         }
 
@@ -220,6 +232,7 @@ namespace GameMain
                 m_LoadMetadataAssemblyComplete = true;
                 return;
             }
+
             foreach (string aotDllName in SettingsUtils.HybridCLRCustomGlobalSettings.AOTMetaAssemblies)
             {
                 var assetLocation = aotDllName;
@@ -231,12 +244,13 @@ namespace GameMain
                             SettingsUtils.HybridCLRCustomGlobalSettings.AssemblyTextAssetPath,
                             $"{aotDllName}{SettingsUtils.HybridCLRCustomGlobalSettings.AssemblyTextAssetExtension}"));
                 }
-                
-                
+
+
                 Log.Debug($"LoadMetadataAsset: [ {assetLocation} ]");
                 m_LoadMetadataAssetCount++;
-                GameModule.Resource.LoadAsset<TextAsset>(assetLocation,LoadMetadataAssetSuccess);
+                GameModule.Resource.LoadAsset<TextAsset>(assetLocation, LoadMetadataAssetSuccess);
             }
+
             m_LoadMetadataAssemblyWait = true;
         }
 
@@ -263,7 +277,8 @@ namespace GameMain
 #if ENABLE_HYBRIDCLR
                     // 加载assembly对应的dll，会自动为它hook。一旦Aot泛型函数的native函数不存在，用解释器版本代码
                     HomologousImageMode mode = HomologousImageMode.SuperSet;
-                    LoadImageErrorCode err = (LoadImageErrorCode)HybridCLR.RuntimeApi.LoadMetadataForAOTAssembly(dllBytes,mode); 
+                    LoadImageErrorCode err =
+                        (LoadImageErrorCode)HybridCLR.RuntimeApi.LoadMetadataForAOTAssembly(dllBytes, mode);
                     Log.Warning($"LoadMetadataForAOTAssembly:{assetName}. mode:{mode} ret:{err}");
 #endif
                 }
@@ -278,6 +293,7 @@ namespace GameMain
             {
                 m_LoadMetadataAssemblyComplete = m_LoadMetadataAssemblyWait && 0 == m_LoadMetadataAssetCount;
             }
+
             GameModule.Resource.UnloadAsset(textAsset);
         }
     }

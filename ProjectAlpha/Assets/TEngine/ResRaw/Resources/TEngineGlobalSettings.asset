@@ -18,22 +18,22 @@ MonoBehaviour:
     mAppStageEnum: 1
     m_DefaultFont: Arial
     m_ResourcesArea:
-      m_ResAdminType: Default
+      m_ResAdminType: Lostii
       m_ResAdminCode: 0
       m_ServerType: 1
       m_CleanCommitPathRes: 1
-      m_InnerResourceSourceUrl: http://127.0.0.1:8088
-      m_ExtraResourceSourceUrl: http://127.0.0.1:8088
-      m_FormalResourceSourceUrl: http://127.0.0.1:8088
+      m_InnerResourceSourceUrl: http://192.168.2.144/TEngineBundles/
+      m_ExtraResourceSourceUrl: http://192.168.2.144/TEngineBundles/
+      m_FormalResourceSourceUrl: http://192.168.2.144/TEngineBundles/
     m_AtlasFolder: Assets/AssetRaw/Atlas
-    HostServerURL: http://127.0.0.1:8081/AssetRoot
-    FallbackHostServerURL: http://127.0.0.1:8081/AssetRoot
+    HostServerURL: http://192.168.2.144/TEngineBundles/
+    FallbackHostServerURL: http://192.168.2.144/TEngineBundles/
     EnableUpdateData: 0
-    WindowsUpdateDataUrl: http://127.0.0.1
-    MacOSUpdateDataUrl: http://127.0.0.1
-    IOSUpdateDataUrl: http://127.0.0.1
-    AndroidUpdateDataUrl: http://127.0.0.1
-    WebGLUpdateDataUrl: http://127.0.0.1
+    WindowsUpdateDataUrl: http://192.168.2.144/TEngineBundles/
+    MacOSUpdateDataUrl: http://192.168.2.144/TEngineBundles/
+    IOSUpdateDataUrl: http://192.168.2.144/TEngineBundles/
+    AndroidUpdateDataUrl: http://192.168.2.144/TEngineBundles/
+    WebGLUpdateDataUrl: http://192.168.2.144/TEngineBundles/
     m_CurUseServerChannel: 
     m_ServerChannelInfos: []
     namespace: GameLogic
@@ -79,7 +79,6 @@ MonoBehaviour:
     - uiElementRegex: m_canvasGroup
       componentName: CanvasGroup
   m_HybridCLRCustomGlobalSettings:
-    m_Enable: 1
     HotUpdateAssemblies:
     - GameBase.dll
     - GameProto.dll

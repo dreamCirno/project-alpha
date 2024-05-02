@@ -6,10 +6,10 @@ using TEngine;
 /// <summary>
 /// 游戏App。
 /// </summary>
-public partial class GameApp:Singleton<GameApp>
+public partial class GameApp : Singleton<GameApp>
 {
     private static List<Assembly> _hotfixAssembly;
-    
+
     /// <summary>
     /// 热更域App主入口。
     /// </summary>
@@ -37,7 +37,6 @@ public partial class GameApp:Singleton<GameApp>
     /// </summary>
     private void StartGameLogic()
     {
-        
     }
 
     /// <summary>
@@ -86,6 +85,7 @@ public partial class GameApp:Singleton<GameApp>
             logic.OnUpdate();
             TProfiler.EndSample();
         }
+
         TProfiler.EndFirstSample();
     }
 
@@ -101,6 +101,7 @@ public partial class GameApp:Singleton<GameApp>
             logic.OnFixedUpdate();
             TProfiler.EndSample();
         }
+
         TProfiler.EndFirstSample();
     }
 
@@ -116,6 +117,7 @@ public partial class GameApp:Singleton<GameApp>
             logic.OnLateUpdate();
             TProfiler.EndSample();
         }
+
         TProfiler.EndFirstSample();
     }
 

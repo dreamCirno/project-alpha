@@ -42,6 +42,11 @@ PluginImporter:
       enabled: 1
       settings: {}
   - first:
+      Android: Android
+    second:
+      enabled: 0
+      settings: {}
+  - first:
       Any: 
     second:
       enabled: 0
@@ -82,7 +87,7 @@ PluginImporter:
   - first:
       Standalone: Win64
     second:
-      enabled: 1
+      enabled: 0
       settings: {}
   - first:
       WebGL: WebGL
