@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 namespace TEngine
 {
@@ -170,5 +173,33 @@ namespace TEngine
             _timer = null;
             _resourceExt = null;
         }
+
+        #region HandlePlayModeStateChanged
+        private void OnEnable()
+        {
+#if UNITY_EDITOR
+            EditorApplication.playModeStateChanged += HandlePlayModeStateChanged;
+#endif
+        }
+
+        private void OnDisable()
+        {
+#if UNITY_EDITOR
+            EditorApplication.playModeStateChanged -= HandlePlayModeStateChanged;
+#endif
+        }
+
+#if UNITY_EDITOR
+        void HandlePlayModeStateChanged(PlayModeStateChange state)
+        {
+            if (state == PlayModeStateChange.ExitingPlayMode)
+            {
+				ModuleImpSystem.Shutdown();
+                ModuleSystem.Shutdown(ShutdownType.Quit);
+            }
+        }
+#endif
+        #endregion
+
     }
 }

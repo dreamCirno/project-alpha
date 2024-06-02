@@ -19,7 +19,7 @@ public partial class GameApp : Singleton<GameApp>
         _hotfixAssembly = (List<Assembly>)objects[0];
         Log.Warning("======= 看到此条日志代表你成功运行了热更新代码 =======");
         Log.Warning("======= Entrance GameApp =======");
-        Instance.Init();
+        Instance.Active();
         Instance.Start();
         Utility.Unity.AddUpdateListener(Instance.Update);
         Utility.Unity.AddFixedUpdateListener(Instance.FixedUpdate);
@@ -45,6 +45,7 @@ public partial class GameApp : Singleton<GameApp>
     /// <param name="shutdownType">关闭游戏框架类型。</param>
     public static void Shutdown(ShutdownType shutdownType)
     {
+        Log.Info("GameApp Shutdown");
         if (shutdownType == ShutdownType.None)
         {
             return;
@@ -58,8 +59,9 @@ public partial class GameApp : Singleton<GameApp>
             Utility.Unity.RemoveDestroyListener(Instance.OnDestroy);
             Utility.Unity.RemoveOnDrawGizmosListener(Instance.OnDrawGizmos);
             Utility.Unity.RemoveOnApplicationPauseListener(Instance.OnApplicationPause);
-            return;
         }
+        
+        SingletonSystem.Release();
     }
 
     private void Start()
@@ -130,6 +132,7 @@ public partial class GameApp : Singleton<GameApp>
             var logic = listLogic[i];
             logic.OnDestroy();
         }
+        Shutdown(ShutdownType.Restart);
     }
 
     private void OnDrawGizmos()
