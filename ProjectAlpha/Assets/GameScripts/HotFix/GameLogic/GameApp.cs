@@ -37,6 +37,7 @@ public partial class GameApp : Singleton<GameApp>
     /// </summary>
     private void StartGameLogic()
     {
+        GameModule.Scene.LoadScene("tutorial");
     }
 
     /// <summary>
@@ -60,7 +61,7 @@ public partial class GameApp : Singleton<GameApp>
             Utility.Unity.RemoveOnDrawGizmosListener(Instance.OnDrawGizmos);
             Utility.Unity.RemoveOnApplicationPauseListener(Instance.OnApplicationPause);
         }
-        
+
         SingletonSystem.Release();
     }
 
@@ -132,6 +133,7 @@ public partial class GameApp : Singleton<GameApp>
             var logic = listLogic[i];
             logic.OnDestroy();
         }
+
         Shutdown(ShutdownType.Restart);
     }
 
