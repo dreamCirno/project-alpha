@@ -1,7 +1,7 @@
 using Fusion;
 using UnityEngine;
 
-namespace GameLogic.Turorial
+namespace Turorial
 {
     public class PlayerSpawner : SimulationBehaviour, IPlayerJoined
     {

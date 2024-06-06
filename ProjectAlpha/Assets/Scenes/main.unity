@@ -850,7 +850,7 @@ MonoBehaviour:
   m_MinUnloadUnusedAssetsInterval: 60
   m_MaxUnloadUnusedAssetsInterval: 300
   packageName: DefaultPackage
-  playMode: 2
+  playMode: 1
   m_UpdatableWhilePlaying: 0
   VerifyLevel: 1
   m_ReadWritePathType: 0
