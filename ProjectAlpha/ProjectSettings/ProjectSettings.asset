@@ -42,8 +42,8 @@ PlayerSettings:
   m_SplashScreenLogos: []
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
-  defaultScreenWidth: 1920
-  defaultScreenHeight: 1080
+  defaultScreenWidth: 1366
+  defaultScreenHeight: 768
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
   m_StereoRenderingPath: 0
@@ -103,7 +103,7 @@ PlayerSettings:
   xboxEnableFitness: 0
   visibleInBackground: 1
   allowFullscreenSwitch: 1
-  fullscreenMode: 1
+  fullscreenMode: 3
   xboxSpeechDB: 0
   xboxEnableHeadOrientation: 0
   xboxEnableGuest: 0
@@ -755,21 +755,21 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: TextMeshPro;ODIN_INSPECTOR;ODIN_INSPECTOR_3;ODIN_INSPECTOR_3_1;ODIN_VALIDATOR;ODIN_VALIDATOR_3_1;ENABLE_HYBRIDCLR;ENABLE_LOG;FUSION_WEAVER;FUSION2
+    Android: TextMeshPro;ODIN_INSPECTOR;ODIN_INSPECTOR_3;ODIN_INSPECTOR_3_1;ODIN_VALIDATOR;ODIN_VALIDATOR_3_1;ENABLE_LOG;FUSION_WEAVER;FUSION2;ENABLE_HYBRIDCLR
     EmbeddedLinux: TextMeshPro
     GameCoreXboxOne: TextMeshPro
     Lumin: TextMeshPro
     Nintendo Switch: TextMeshPro
     PS4: TextMeshPro
-    PS5: TextMeshPro
+    PS5: TextMeshPro;ENABLE_HYBRIDCLR
     QNX: TextMeshPro
     Stadia: TextMeshPro
-    Standalone: ODIN_INSPECTOR;ODIN_INSPECTOR_3;ODIN_INSPECTOR_3_1;ODIN_VALIDATOR;ODIN_VALIDATOR_3_1;TextMeshPro;ENABLE_LOG;FUSION_WEAVER;FUSION2
+    Standalone: ODIN_INSPECTOR;ODIN_INSPECTOR_3;ODIN_INSPECTOR_3_1;ODIN_VALIDATOR;ODIN_VALIDATOR_3_1;TextMeshPro;ENABLE_LOG;FUSION_WEAVER;FUSION2;ENABLE_HYBRIDCLR
     VisionOS: TextMeshPro
-    WebGL: TextMeshPro;ENABLE_LOG
-    Windows Store Apps: TextMeshPro;ENABLE_LOG
+    WebGL: TextMeshPro;ENABLE_LOG;ENABLE_HYBRIDCLR
+    Windows Store Apps: TextMeshPro;ENABLE_LOG;ENABLE_HYBRIDCLR
     XboxOne: TextMeshPro
-    iPhone: TextMeshPro;ENABLE_LOG
+    iPhone: TextMeshPro;ENABLE_LOG;ENABLE_HYBRIDCLR
     tvOS: TextMeshPro
   additionalCompilerArguments: {}
   platformArchitecture: {}
@@ -876,4 +876,4 @@ PlayerSettings:
   hmiLoadingImage: {fileID: 0}
   platformRequiresReadableAssets: 0
   virtualTexturingSupportEnabled: 0
-  insecureHttpOption: 0
+  insecureHttpOption: 2
