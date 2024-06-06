@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 5261428533388620076}
   - component: {fileID: 1543865975123439755}
   - component: {fileID: -1661257624981439409}
+  - component: {fileID: 7608387076779099669}
   m_Layer: 0
   m_Name: PlayerCharacter
   m_TagString: Untagged
@@ -130,6 +131,7 @@ MonoBehaviour:
   NetworkedBehaviours:
   - {fileID: 1543865975123439755}
   - {fileID: -1661257624981439409}
+  - {fileID: 7608387076779099669}
 --- !u!143 &5261428533388620076
 CharacterController:
   m_ObjectHideFlags: 0
@@ -184,4 +186,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67d9d0dcec6d4ee19149f2030762641a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Camera: {fileID: 0}
   PlayerSpeed: 2
+  JumpForce: 5
+  GravityValue: -9.81
+--- !u!114 &7608387076779099669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8658156489801476423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f6a2df1b8ed4811a9ae5cb01a69e4e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MeshRenderer: {fileID: 6394898413189189320}
+  _NetworkedColor: {r: 1, g: 1, b: 1, a: 1}

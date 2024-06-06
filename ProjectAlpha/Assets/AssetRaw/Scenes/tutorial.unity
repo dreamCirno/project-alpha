@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44402242, g: 0.49316543, b: 0.5722324, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -135,6 +134,7 @@ GameObject:
   - component: {fileID: 579207543}
   - component: {fileID: 579207542}
   - component: {fileID: 579207545}
+  - component: {fileID: 579207546}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -232,6 +232,20 @@ MonoBehaviour:
   Components:
   - {fileID: 579207542}
   _guid: 92e1b988-42cc-49f8-
+--- !u!114 &579207546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 579207541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d05a83e98eb44a791ca775f396bfe51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Target: {fileID: 0}
+  MouseSensitivity: 10
 --- !u!1 &818123859
 GameObject:
   m_ObjectHideFlags: 0
@@ -279,7 +293,7 @@ MonoBehaviour:
   RunnerPrefab: {fileID: 855376438}
   StartMode: 0
   AutoStartAs: 2
-  AutoHideGUI: 1
+  AutoHideGUI: 0
   AutoClients: 1
   ClientStartDelay: 0.1
   ServerPort: 0

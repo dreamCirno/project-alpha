@@ -5,6 +5,8 @@ namespace Turorial
 {
     public class PlayerMovement : NetworkBehaviour
     {
+        public Camera Camera;
+
         private Vector3 _velocity;
         private bool _jumpPressed;
 
@@ -18,6 +20,15 @@ namespace Turorial
         private void Awake()
         {
             _controller = GetComponent<CharacterController>();
+        }
+
+        public override void Spawned()
+        {
+            if (HasStateAuthority)
+            {
+                Camera = Camera.main;
+                Camera.GetComponent<FirstPersonCamera>().Target = transform;
+            }
         }
 
         void Update()
@@ -41,8 +52,12 @@ namespace Turorial
                 _velocity = new Vector3(0, -1, 0);
             }
 
-            Vector3 move = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")) * Runner.DeltaTime *
-                           PlayerSpeed;
+            Quaternion cameraRotationY = Quaternion.Euler(0, Camera.transform.rotation.eulerAngles.y, 0);
+            Vector3 move = cameraRotationY * new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")) *
+                           Runner.DeltaTime * PlayerSpeed;
+
+            // Vector3 move = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")) * Runner.DeltaTime *
+            //                PlayerSpeed;
 
             _velocity.y += GravityValue * Runner.DeltaTime;
             if (_jumpPressed && _controller.isGrounded)
