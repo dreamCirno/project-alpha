@@ -1,16 +1,21 @@
-ProjectAlpha/UserSettings/Layouts/default-2022.dwlt
-ProjectAlpha/UserSettings/Layouts/default-2021.dwlt
-ProjectAlpha/UserSettings/Search.index
-ProjectAlpha/UserSettings/Search.settings
-
-#Luban
+# Luban
 Tools/Luban/
 Tools/Luban.ClientServer/
 Configs/.cache.meta
 GenerateDatas/
 
-#FileServer
+# FileServer
 Tools/FileServer/AssetRoot
 
+# UserSettings
+ProjectAlpha/UserSettings/Layouts/default-2022.dwlt
+ProjectAlpha/UserSettings/Layouts/default-2021.dwlt
+ProjectAlpha/UserSettings/Search.index
+ProjectAlpha/UserSettings/Search.settings
+
+# ProjectSettings
 ProjectAlpha/ProjectSettings/CommonBurstAotSettings.json
 ProjectAlpha/ProjectSettings/BurstAotSettings_StandaloneWindows.json
+
+# Project
+ProjectAlpha/Assets/AssetRaw/DLL
