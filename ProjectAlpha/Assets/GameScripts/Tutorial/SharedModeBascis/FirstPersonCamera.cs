@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Turorial
+namespace Tutorial
 {
     public class FirstPersonCamera : MonoBehaviour
     {

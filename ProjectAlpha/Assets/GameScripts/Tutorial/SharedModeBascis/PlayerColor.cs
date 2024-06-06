@@ -1,7 +1,7 @@
 using Fusion;
 using UnityEngine;
 
-namespace Turorial
+namespace Tutorial
 {
     public class PlayerColor : NetworkBehaviour
     {
