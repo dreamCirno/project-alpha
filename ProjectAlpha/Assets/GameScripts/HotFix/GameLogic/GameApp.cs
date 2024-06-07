@@ -37,7 +37,7 @@ public partial class GameApp : Singleton<GameApp>
     /// </summary>
     private void StartGameLogic()
     {
-        GameModule.Scene.LoadScene("tutorial");
+        GameModule.Scene.LoadScene("tutorial host mode");
     }
 
     /// <summary>
