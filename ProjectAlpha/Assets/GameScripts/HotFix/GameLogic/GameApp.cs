@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Reflection;
 using GameBase;
+using GameLogic;
 using TEngine;
 
 /// <summary>
@@ -27,7 +28,7 @@ public partial class GameApp : Singleton<GameApp>
         Utility.Unity.AddDestroyListener(Instance.OnDestroy);
         Utility.Unity.AddOnDrawGizmosListener(Instance.OnDrawGizmos);
         Utility.Unity.AddOnApplicationPauseListener(Instance.OnApplicationPause);
-        GameModule.Procedure.RestartProcedure(new GameLogic.OnEnterGameAppProcedure());
+        GameModule.Procedure.RestartProcedure(new OnEnterGameAppProcedure());
         Instance.StartGameLogic();
     }
 
@@ -37,7 +38,7 @@ public partial class GameApp : Singleton<GameApp>
     /// </summary>
     private void StartGameLogic()
     {
-        GameModule.Scene.LoadScene("tutorial host mode");
+        GameModule.Procedure.RestartProcedure(new OnEnterMetronomeProcedure());
     }
 
     /// <summary>
