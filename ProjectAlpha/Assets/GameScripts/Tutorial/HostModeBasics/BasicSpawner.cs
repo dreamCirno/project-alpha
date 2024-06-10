@@ -11,6 +11,7 @@ namespace Tutorial
         private NetworkRunner _runner;
         [SerializeField] private NetworkPrefabRef _playerPrefab;
         private Dictionary<PlayerRef, NetworkObject> _spawnedCharacters = new Dictionary<PlayerRef, NetworkObject>();
+        private bool _mouseButton0;
 
         async void StartGame(GameMode mode)
         {
@@ -47,6 +48,11 @@ namespace Tutorial
             }
         }
 
+        private void Update()
+        {
+            _mouseButton0 = _mouseButton0 || Input.GetMouseButton(0);
+        }
+
         public void OnInput(NetworkRunner runner, NetworkInput input)
         {
             var data = new NetworkInputData();
@@ -62,6 +68,9 @@ namespace Tutorial
 
             if (Input.GetKey(KeyCode.D))
                 data.direction += Vector3.right;
+
+            data.buttons.Set(NetworkInputData.MOUSEBUTTON0, _mouseButton0);
+            _mouseButton0 = false;
 
             input.Set(data);
         }
