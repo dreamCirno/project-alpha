@@ -9,12 +9,14 @@ namespace Tutorial
         {
             if (_runner == null)
             {
-                if (GUI.Button(new Rect(0, 0, 200, 40), "Host"))
+                var x = Screen.width - 200;
+
+                if (GUI.Button(new Rect(x, 0, 200, 40), "Host"))
                 {
                     StartGame(GameMode.Host);
                 }
 
-                if (GUI.Button(new Rect(0, 40, 200, 40), "Join"))
+                if (GUI.Button(new Rect(x, 40, 200, 40), "Join"))
                 {
                     StartGame(GameMode.Client);
                 }
