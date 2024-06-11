@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 185f6993d5150494d98da50e26cb1c25, type: 3}
   m_Name: AssetBundleCollectorSetting
   m_EditorClassIdentifier: 
-  ShowPackageView: 0
+  ShowPackageView: 1
   ShowEditorAlias: 0
   UniqueBundleName: 0
   Packages:
@@ -21,8 +21,8 @@ MonoBehaviour:
     EnableAddressable: 1
     LocationToLower: 0
     IncludeAssetGUID: 0
-    IgnoreDefaultType: 1
     AutoCollectShaders: 1
+    IgnoreRuleName: NormalIgnoreRule
     Groups:
     - GroupName: Actor
       GroupDesc: "\u89D2\u8272"
@@ -171,6 +171,19 @@ MonoBehaviour:
         CollectorGUID: 2473375c9ee163a4b861278b38091455
         CollectorType: 0
         AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+    - GroupName: Beatmap
+      GroupDesc: "\u8282\u62CD\u56FE"
+      AssetTags: Beatmap
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/AssetRaw/Beatmap
+        CollectorGUID: ea9d9c884050e03429cbd71a9a04d4b3
+        CollectorType: 0
+        AddressRuleName: AddressByFolderAndFileName
         PackRuleName: PackDirectory
         FilterRuleName: CollectAll
         AssetTags: 

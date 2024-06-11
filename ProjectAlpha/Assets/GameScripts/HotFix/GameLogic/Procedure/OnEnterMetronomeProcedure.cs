@@ -6,7 +6,7 @@ namespace GameLogic
     {
         protected override void OnEnter(IFsm<IProcedureManager> procedureOwner)
         {
-            base.OnEnter(procedureOwner);
+            GameModule.Scene.LoadScene("Metronome");
         }
     }
 }
