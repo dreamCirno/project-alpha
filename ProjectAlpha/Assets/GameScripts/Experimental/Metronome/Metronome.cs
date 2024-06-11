@@ -7,8 +7,6 @@ namespace ProjectAlpha
 {
     public class Metronome : MonoBehaviour
     {
-        public MetronomeHeart Heart;
-
         private AudioAgent _audioAgent;
         private float _timer = 0.0f;
         private int _currentIndex = 0;
@@ -87,7 +85,7 @@ namespace ProjectAlpha
 
         private void Heartbeat()
         {
-            Heart.Heartbeat();
+            GameEvent.Send(nameof(Metronome));
         }
 
         private void ResetTimerAndIndex()

@@ -413,6 +413,7 @@ GameObject:
   - component: {fileID: 3418039949980439632}
   - component: {fileID: 6056884917165963771}
   - component: {fileID: 6056884917165963773}
+  - component: {fileID: 6056884917165963774}
   - component: {fileID: 6056884917165963772}
   m_Layer: 5
   m_Name: Metronome
@@ -460,8 +461,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4976dab90644cefa3ea3e55914da257, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Beatmap: {fileID: 11400000, guid: 05d73cafe4d08734bafbd3e372441089, type: 2}
-  Heart: {fileID: 6056884917165963773}
 --- !u!114 &6056884917165963772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -493,6 +492,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Animator: {fileID: 6056884917165963772}
+--- !u!114 &6056884917165963774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3991370524285110216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7c07faae34a40c6b6aef26a07cb32eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &6144534684032921422
 MonoBehaviour:
   m_ObjectHideFlags: 0

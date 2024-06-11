@@ -2,11 +2,11 @@ using UnityEngine;
 
 namespace ProjectAlpha
 {
-    public class MetronomeHeart : MonoBehaviour
+    public class MetronomeHeart : MonoBehaviour, IHeartbeatListener
     {
         public FrameAnimator Animator;
 
-        public void Heartbeat()
+        public void OnHeartbeat()
         {
             Animator.isLooping = false;
             Animator.Replay();
