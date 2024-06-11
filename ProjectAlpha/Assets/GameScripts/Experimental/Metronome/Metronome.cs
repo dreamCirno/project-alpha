@@ -7,6 +7,25 @@ namespace ProjectAlpha
 {
     public class Metronome : MonoBehaviour
     {
+        public float AudioTime => _timer;
+        public bool IsPlaying => _currentPlayState == PlayState.Playing;
+        public int[] BeatTimes => _beatTimes;
+
+        public static Metronome Current
+        {
+            get
+            {
+                if (!_active)
+                {
+                    _active = FindObjectOfType<Metronome>();
+                }
+
+                return _active;
+            }
+        }
+
+        private static Metronome _active;
+
         private AudioAgent _audioAgent;
         private float _timer = 0.0f;
         private int _currentIndex = 0;
@@ -24,7 +43,7 @@ namespace ProjectAlpha
 
         private void Start()
         {
-            Load("zone1_1");
+            Load("zone1_3");
             Play();
         }
 
@@ -50,6 +69,8 @@ namespace ProjectAlpha
                 _audioAgent.UnPause();
                 _currentPlayState = PlayState.Playing;
             }
+
+            GameEvent.Send(GameEventDefine.Play);
         }
 
         public void Pause()
@@ -60,6 +81,8 @@ namespace ProjectAlpha
                 _audioAgent.Pause();
                 _currentPlayState = PlayState.Paused;
             }
+
+            GameEvent.Send(GameEventDefine.Pause);
         }
 
         public void Resume()
@@ -70,6 +93,8 @@ namespace ProjectAlpha
                 _audioAgent.UnPause();
                 _currentPlayState = PlayState.Playing;
             }
+
+            GameEvent.Send(GameEventDefine.Resume);
         }
 
         public void Stop()
@@ -81,11 +106,13 @@ namespace ProjectAlpha
                 _audioAgent.Stop();
                 _audioAgent = null;
             }
+
+            GameEvent.Send(GameEventDefine.Stop);
         }
 
         private void Heartbeat()
         {
-            GameEvent.Send(nameof(Metronome));
+            GameEvent.Send(GameEventDefine.Heartbeat);
         }
 
         private void ResetTimerAndIndex()
