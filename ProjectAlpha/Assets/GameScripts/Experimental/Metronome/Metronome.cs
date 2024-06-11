@@ -9,7 +9,7 @@ namespace ProjectAlpha
     {
         public float AudioTime => _timer;
         public bool IsPlaying => _currentPlayState == PlayState.Playing;
-        public int[] BeatTimes => _beatTimes;
+        public float[] BeatTimes => _beatTimes;
 
         public static Metronome Current
         {
@@ -29,7 +29,7 @@ namespace ProjectAlpha
         private AudioAgent _audioAgent;
         private float _timer = 0.0f;
         private int _currentIndex = 0;
-        private int[] _beatTimes;
+        private float[] _beatTimes;
 
         // 播放状态枚举
         private enum PlayState
@@ -43,7 +43,9 @@ namespace ProjectAlpha
 
         private void Start()
         {
-            Load("zone1_3");
+            // Load("zone1_3");
+            // Load("NULCTRLEX");
+            LoadWithOsu("Finixe");
             Play();
         }
 
@@ -134,14 +136,47 @@ namespace ProjectAlpha
 
             try
             {
-                _beatTimes = beatmapText.text.Split(',')
-                    .Select(int.Parse)
+                var cleanedText = beatmapText.text.Replace("\r", ",").Replace("\n", ",");
+                _beatTimes = cleanedText.Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries)
+                    .Select(timeString => float.Parse(timeString) * 1000)
                     .ToArray();
             }
             catch (Exception ex)
             {
                 Debug.LogError($"Failed to load beatmap: {ex.Message}");
-                _beatTimes = new int[0];
+                _beatTimes = Array.Empty<float>();
+            }
+
+            LoadAudio(map);
+        }
+
+        private void LoadWithOsu(string map)
+        {
+            Stop();
+
+            var beatmapText = GameModule.Resource.LoadAsset<TextAsset>($"Beatmap_{map}");
+            if (beatmapText == null)
+            {
+                Debug.LogError("Beatmap text is null.");
+                return;
+            }
+
+            try
+            {
+                var lines = beatmapText.text
+                    .Split(new[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries)
+                    .AsEnumerable();
+                var beatmap = OsuParsers.Decoders.BeatmapDecoder.Decode(lines);
+
+                // 提取 StartTime 并转换为数组
+                _beatTimes = beatmap.HitObjects
+                    .Select(hitObject => (float)hitObject.StartTime)
+                    .ToArray();
+            }
+            catch (Exception ex)
+            {
+                Debug.LogError($"Failed to load beatmap: {ex.Message}");
+                _beatTimes = new float[0];
             }
 
             LoadAudio(map);

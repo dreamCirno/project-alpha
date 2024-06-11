@@ -9,7 +9,7 @@ namespace ProjectAlpha
         public BeatMarker BeatMarkerPrefab;
         public float PreGenerateMiliseconds = 3000;
 
-        private Queue<int> _beatTimesQueue;
+        private Queue<float> _beatTimesQueue;
         private List<BeatMarker> _beatMarkersUseList;
         private ObjectPool<BeatMarker> _pool;
 
@@ -59,7 +59,7 @@ namespace ProjectAlpha
 
         public void OnPlay()
         {
-            _beatTimesQueue = new Queue<int>(Metronome.Current.BeatTimes);
+            _beatTimesQueue = new Queue<float>(Metronome.Current.BeatTimes);
         }
 
         public void OnPause()
