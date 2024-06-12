@@ -1,7 +1,9 @@
 using System;
 using System.Linq;
+using OsuParsers.Beatmaps.Objects.Mania;
 using TEngine;
 using UnityEngine;
+using AudioType = TEngine.AudioType;
 
 namespace ProjectAlpha
 {
@@ -30,6 +32,7 @@ namespace ProjectAlpha
         private float _timer = 0.0f;
         private int _currentIndex = 0;
         private float[] _beatTimes;
+        private OsuParsers.Beatmaps.Objects.Extras[] _audioSamples;
 
         // 播放状态枚举
         private enum PlayState
@@ -45,7 +48,7 @@ namespace ProjectAlpha
         {
             // Load("zone1_3");
             // Load("NULCTRLEX");
-            LoadWithOsu("Finixe");
+            LoadWithOsu("Myosotis");
             Play();
         }
 
@@ -59,6 +62,13 @@ namespace ProjectAlpha
             if (_timer >= _beatTimes[_currentIndex])
             {
                 Heartbeat();
+                if (!string.IsNullOrEmpty(_audioSamples[_currentIndex].SampleFileName))
+                {
+                    GameModule.Audio.Play(AudioType.Sound,
+                        path: System.IO.Path.GetFileNameWithoutExtension(_audioSamples[_currentIndex].SampleFileName),
+                        volume: _audioSamples[_currentIndex].Volume);
+                }
+
                 _currentIndex++;
             }
         }
@@ -170,8 +180,12 @@ namespace ProjectAlpha
 
                 // 提取 StartTime 并转换为数组
                 _beatTimes = beatmap.HitObjects
+                    .Where(hitObject => hitObject is ManiaNote)
                     .Select(hitObject => (float)hitObject.StartTime)
                     .ToArray();
+                _audioSamples = beatmap.HitObjects
+                    .Where(hitObject => hitObject is ManiaNote)
+                    .Select(hitObject => hitObject.Extras).ToArray();
             }
             catch (Exception ex)
             {
