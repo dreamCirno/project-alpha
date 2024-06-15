@@ -8,7 +8,6 @@ namespace ProjectAlpha
     public class MetronomeEditor : OdinEditor
     {
         private Metronome metronome;
-        private string musicName = "zone1_1"; // 默认音乐名称
 
         protected override void OnEnable()
         {
@@ -21,15 +20,6 @@ namespace ProjectAlpha
             base.OnInspectorGUI();
 
             GUILayout.Space(10);
-
-            musicName = EditorGUILayout.TextField("Music Name", musicName); // 添加文本框输入音乐名称
-
-            GUILayout.Space(10);
-
-            if (GUILayout.Button("Load"))
-            {
-                metronome.Load(musicName);
-            }
 
             if (GUILayout.Button("LoadFinixe"))
             {

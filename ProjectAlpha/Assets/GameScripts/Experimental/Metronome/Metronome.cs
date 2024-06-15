@@ -44,13 +44,6 @@ namespace ProjectAlpha
 
         private PlayState _currentPlayState = PlayState.Stopped;
 
-        private void Start()
-        {
-            // Load("zone1_3");
-            Loadzone1_1();
-            Play();
-        }
-
         private void Update()
         {
             if (_currentPlayState != PlayState.Playing || _currentIndex >= _beatTimes.Length) return;
@@ -131,68 +124,6 @@ namespace ProjectAlpha
         {
             _timer = 0.0f;
             _currentIndex = 0;
-        }
-
-        public void Load(string map)
-        {
-            Stop();
-
-            var beatmapText = GameModule.Resource.LoadAsset<TextAsset>($"Beatmap_{map}");
-            if (beatmapText == null)
-            {
-                Debug.LogError("Beatmap text is null.");
-                return;
-            }
-
-            try
-            {
-                var cleanedText = beatmapText.text.Replace("\r", ",").Replace("\n", ",");
-                _beatTimes = cleanedText.Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries)
-                    .Select(timeString => float.Parse(timeString))
-                    .ToArray();
-            }
-            catch (Exception ex)
-            {
-                Debug.LogError($"Failed to load beatmap: {ex.Message}");
-                _beatTimes = Array.Empty<float>();
-            }
-
-            LoadAudio(map);
-        }
-
-        private void LoadWithOsu(string map)
-        {
-            Stop();
-
-            var beatmapText = GameModule.Resource.LoadAsset<TextAsset>($"Beatmap_{map}");
-            if (beatmapText == null)
-            {
-                Debug.LogError("Beatmap text is null.");
-                return;
-            }
-
-            try
-            {
-                var lines = beatmapText.text
-                    .Split(new[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries)
-                    .AsEnumerable();
-                var beatmap = OsuParsers.Decoders.BeatmapDecoder.Decode(lines);
-                // 提取 StartTime 并转换为数组
-                _beatTimes = beatmap.HitObjects
-                    .Where(hitObject => hitObject.TotalTimeSpan.Seconds == 0)
-                    .Select(hitObject => (float)hitObject.StartTime)
-                    .ToArray();
-                _audioSamples = beatmap.HitObjects
-                    .Where(hitObject => hitObject.TotalTimeSpan.Seconds == 0)
-                    .Select(hitObject => hitObject.Extras).ToArray();
-            }
-            catch (Exception ex)
-            {
-                Debug.LogError($"Failed to load beatmap: {ex.Message}");
-                _beatTimes = new float[0];
-            }
-
-            LoadAudio(map);
         }
 
         public void LoadFinixe()
