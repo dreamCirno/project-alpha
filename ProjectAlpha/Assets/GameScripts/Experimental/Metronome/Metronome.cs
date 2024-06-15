@@ -46,9 +46,9 @@ namespace ProjectAlpha
 
         private void Start()
         {
-            // Load("zone1_3");
+            Load("zone1_3");
             // Load("NULCTRLEX");
-            LoadWithOsu("Myosotis");
+            // LoadWithOsu("Myosotis");
             Play();
         }
 
@@ -62,7 +62,7 @@ namespace ProjectAlpha
             if (_timer >= _beatTimes[_currentIndex])
             {
                 Heartbeat();
-                if (!string.IsNullOrEmpty(_audioSamples[_currentIndex].SampleFileName))
+                if (_audioSamples != null && !string.IsNullOrEmpty(_audioSamples[_currentIndex].SampleFileName))
                 {
                     GameModule.Audio.Play(AudioType.Sound,
                         path: System.IO.Path.GetFileNameWithoutExtension(_audioSamples[_currentIndex].SampleFileName),
@@ -148,7 +148,7 @@ namespace ProjectAlpha
             {
                 var cleanedText = beatmapText.text.Replace("\r", ",").Replace("\n", ",");
                 _beatTimes = cleanedText.Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries)
-                    .Select(timeString => float.Parse(timeString) * 1000)
+                    .Select(timeString => float.Parse(timeString))
                     .ToArray();
             }
             catch (Exception ex)
