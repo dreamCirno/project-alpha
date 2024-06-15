@@ -46,7 +46,8 @@ namespace ProjectAlpha
 
         private void Start()
         {
-            Load("zone1_3");
+            // Load("zone1_3");
+            Loadzone1_1();
             Play();
         }
 
@@ -194,9 +195,52 @@ namespace ProjectAlpha
             LoadAudio(map);
         }
 
-        private void LoadWithMetronomeMap()
+        public void LoadFinixe()
         {
-            
+            var metronomeMap = GameModule.Resource.LoadAsset<MetronomeMap>("Finixe_MetronomeMap");
+            _beatTimes = new float[metronomeMap.BeatObjects.Count];
+            for (int i = 0; i < metronomeMap.BeatObjects.Count; i++)
+            {
+                _beatTimes[i] = metronomeMap.BeatObjects[i].StartTime;
+            }
+
+            LoadAudio("Assets/AssetRaw/BeatmapRaw/Osu/Finixe/Finixe.mp3");
+        }
+
+        public void Loadzone1_1()
+        {
+            var metronomeMap = GameModule.Resource.LoadAsset<MetronomeMap>("zone1_1_MetronomeMap");
+            _beatTimes = new float[metronomeMap.BeatObjects.Count];
+            for (int i = 0; i < metronomeMap.BeatObjects.Count; i++)
+            {
+                _beatTimes[i] = metronomeMap.BeatObjects[i].StartTime;
+            }
+
+            LoadAudio("Assets/AssetRaw/BeatmapRaw/CryptOfTheNecroDancer/zone1_1/zone1_1.ogg");
+        }
+
+        public void Loadzone1_2()
+        {
+            var metronomeMap = GameModule.Resource.LoadAsset<MetronomeMap>("zone1_2_MetronomeMap");
+            _beatTimes = new float[metronomeMap.BeatObjects.Count];
+            for (int i = 0; i < metronomeMap.BeatObjects.Count; i++)
+            {
+                _beatTimes[i] = metronomeMap.BeatObjects[i].StartTime;
+            }
+
+            LoadAudio("Assets/AssetRaw/BeatmapRaw/CryptOfTheNecroDancer/zone1_2/zone1_2.ogg");
+        }
+
+        public void Loadzone1_3()
+        {
+            var metronomeMap = GameModule.Resource.LoadAsset<MetronomeMap>("zone1_3_MetronomeMap");
+            _beatTimes = new float[metronomeMap.BeatObjects.Count];
+            for (int i = 0; i < metronomeMap.BeatObjects.Count; i++)
+            {
+                _beatTimes[i] = metronomeMap.BeatObjects[i].StartTime;
+            }
+
+            LoadAudio("Assets/AssetRaw/BeatmapRaw/CryptOfTheNecroDancer/zone1_3/zone1_3.ogg");
         }
 
         private void LoadAudio(string audioName)

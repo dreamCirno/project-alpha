@@ -31,6 +31,26 @@ namespace ProjectAlpha
                 metronome.Load(musicName);
             }
 
+            if (GUILayout.Button("LoadFinixe"))
+            {
+                metronome.LoadFinixe();
+            }
+
+            if (GUILayout.Button("Loadzone1_1"))
+            {
+                metronome.Loadzone1_1();
+            }
+
+            if (GUILayout.Button("Loadzone1_2"))
+            {
+                metronome.Loadzone1_2();
+            }
+
+            if (GUILayout.Button("Loadzone1_3"))
+            {
+                metronome.Loadzone1_3();
+            }
+
             if (GUILayout.Button("Play"))
             {
                 metronome.Play();
