@@ -175,15 +175,28 @@ MonoBehaviour:
         FilterRuleName: CollectAll
         AssetTags: 
         UserData: 
-    - GroupName: Beatmap
-      GroupDesc: "\u8282\u62CD\u56FE"
-      AssetTags: Beatmap
+    - GroupName: BeatmapRaw
+      GroupDesc: "\u8282\u62CD\u56FE\u8D44\u6E90"
+      AssetTags: BeatmapRaw
       ActiveRuleName: EnableGroup
       Collectors:
-      - CollectPath: Assets/AssetRaw/Beatmap
+      - CollectPath: Assets/AssetRaw/BeatmapRaw
         CollectorGUID: ea9d9c884050e03429cbd71a9a04d4b3
         CollectorType: 0
-        AddressRuleName: AddressByFolderAndFileName
+        AddressRuleName: AddressDisable
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+    - GroupName: Beatmaps
+      GroupDesc: "\u8282\u62CD\u56FE\u914D\u7F6E"
+      AssetTags: Beatmaps
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/AssetRaw/Beatmaps
+        CollectorGUID: a233b1b5ddac6e24bac495b3a4b496c8
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
         PackRuleName: PackDirectory
         FilterRuleName: CollectAll
         AssetTags: 

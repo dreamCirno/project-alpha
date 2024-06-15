@@ -46,9 +46,7 @@ namespace ProjectAlpha
 
         private void Start()
         {
-            // Load("zone1_3");
-            // Load("NULCTRLEX");
-            LoadWithOsu("Myosotis");
+            Load("zone1_3");
             Play();
         }
 
@@ -62,7 +60,8 @@ namespace ProjectAlpha
             if (_timer >= _beatTimes[_currentIndex])
             {
                 Heartbeat();
-                if (!string.IsNullOrEmpty(_audioSamples[_currentIndex].SampleFileName))
+
+                if (_audioSamples != null && !string.IsNullOrEmpty(_audioSamples[_currentIndex].SampleFileName))
                 {
                     GameModule.Audio.Play(AudioType.Sound,
                         path: System.IO.Path.GetFileNameWithoutExtension(_audioSamples[_currentIndex].SampleFileName),
@@ -148,7 +147,7 @@ namespace ProjectAlpha
             {
                 var cleanedText = beatmapText.text.Replace("\r", ",").Replace("\n", ",");
                 _beatTimes = cleanedText.Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries)
-                    .Select(timeString => float.Parse(timeString) * 1000)
+                    .Select(timeString => float.Parse(timeString))
                     .ToArray();
             }
             catch (Exception ex)
@@ -177,14 +176,13 @@ namespace ProjectAlpha
                     .Split(new[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries)
                     .AsEnumerable();
                 var beatmap = OsuParsers.Decoders.BeatmapDecoder.Decode(lines);
-
                 // 提取 StartTime 并转换为数组
                 _beatTimes = beatmap.HitObjects
-                    .Where(hitObject => hitObject is ManiaNote)
+                    .Where(hitObject => hitObject.TotalTimeSpan.Seconds == 0)
                     .Select(hitObject => (float)hitObject.StartTime)
                     .ToArray();
                 _audioSamples = beatmap.HitObjects
-                    .Where(hitObject => hitObject is ManiaNote)
+                    .Where(hitObject => hitObject.TotalTimeSpan.Seconds == 0)
                     .Select(hitObject => hitObject.Extras).ToArray();
             }
             catch (Exception ex)
@@ -196,12 +194,17 @@ namespace ProjectAlpha
             LoadAudio(map);
         }
 
+        private void LoadWithMetronomeMap()
+        {
+            
+        }
+
         private void LoadAudio(string audioName)
         {
             var path = $"{audioName}";
             if (_audioAgent == null)
             {
-                _audioAgent = GameModule.Audio.Play(TEngine.AudioType.Music, path);
+                _audioAgent = GameModule.Audio.Play(AudioType.Music, path);
             }
             else
             {

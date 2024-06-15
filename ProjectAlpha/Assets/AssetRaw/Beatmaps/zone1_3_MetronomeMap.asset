@@ -1,0 +1,2035 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002b652c28d54f9f9b95fad7067b0e40, type: 3}
+  m_Name: zone1_3_MetronomeMap
+  m_EditorClassIdentifier: 
+  BeatObjects:
+  - Position: {x: 0, y: 0}
+    StartTime: 0
+    EndTime: 0
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 454
+    EndTime: 454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 882
+    EndTime: 882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 1311
+    EndTime: 1311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 1739
+    EndTime: 1739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 2168
+    EndTime: 2168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 2596
+    EndTime: 2596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 3025
+    EndTime: 3025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 3454
+    EndTime: 3454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 3882
+    EndTime: 3882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 4311
+    EndTime: 4311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 4739
+    EndTime: 4739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 5168
+    EndTime: 5168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 5596
+    EndTime: 5596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 6025
+    EndTime: 6025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 6454
+    EndTime: 6454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 6882
+    EndTime: 6882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 7311
+    EndTime: 7311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 7739
+    EndTime: 7739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 8168
+    EndTime: 8168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 8596
+    EndTime: 8596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 9025
+    EndTime: 9025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 9454
+    EndTime: 9454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 9882
+    EndTime: 9882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 10311
+    EndTime: 10311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 10739
+    EndTime: 10739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 11168
+    EndTime: 11168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 11596
+    EndTime: 11596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 12025
+    EndTime: 12025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 12454
+    EndTime: 12454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 12882
+    EndTime: 12882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 13311
+    EndTime: 13311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 13739
+    EndTime: 13739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 14168
+    EndTime: 14168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 14596
+    EndTime: 14596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 15025
+    EndTime: 15025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 15454
+    EndTime: 15454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 15882
+    EndTime: 15882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 16311
+    EndTime: 16311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 16739
+    EndTime: 16739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 17168
+    EndTime: 17168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 17596
+    EndTime: 17596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 18025
+    EndTime: 18025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 18454
+    EndTime: 18454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 18882
+    EndTime: 18882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 19311
+    EndTime: 19311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 19739
+    EndTime: 19739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 20168
+    EndTime: 20168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 20596
+    EndTime: 20596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 21025
+    EndTime: 21025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 21454
+    EndTime: 21454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 21882
+    EndTime: 21882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 22311
+    EndTime: 22311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 22739
+    EndTime: 22739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 23168
+    EndTime: 23168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 23596
+    EndTime: 23596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 24025
+    EndTime: 24025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 24454
+    EndTime: 24454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 24882
+    EndTime: 24882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 25311
+    EndTime: 25311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 25739
+    EndTime: 25739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 26168
+    EndTime: 26168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 26596
+    EndTime: 26596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 27025
+    EndTime: 27025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 27454
+    EndTime: 27454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 27882
+    EndTime: 27882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 28311
+    EndTime: 28311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 28739
+    EndTime: 28739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 29168
+    EndTime: 29168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 29596
+    EndTime: 29596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 30025
+    EndTime: 30025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 30454
+    EndTime: 30454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 30882
+    EndTime: 30882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 31311
+    EndTime: 31311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 31739
+    EndTime: 31739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 32168
+    EndTime: 32168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 32596
+    EndTime: 32596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 33025
+    EndTime: 33025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 33454
+    EndTime: 33454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 33882
+    EndTime: 33882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 34311
+    EndTime: 34311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 34739
+    EndTime: 34739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 35168
+    EndTime: 35168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 35596
+    EndTime: 35596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 36025
+    EndTime: 36025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 36454
+    EndTime: 36454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 36882
+    EndTime: 36882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 37311
+    EndTime: 37311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 37739
+    EndTime: 37739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 38168
+    EndTime: 38168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 38596
+    EndTime: 38596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 39025
+    EndTime: 39025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 39454
+    EndTime: 39454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 39882
+    EndTime: 39882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 40311
+    EndTime: 40311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 40739
+    EndTime: 40739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 41168
+    EndTime: 41168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 41596
+    EndTime: 41596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 42025
+    EndTime: 42025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 42454
+    EndTime: 42454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 42882
+    EndTime: 42882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 43311
+    EndTime: 43311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 43739
+    EndTime: 43739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 44168
+    EndTime: 44168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 44596
+    EndTime: 44596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 45025
+    EndTime: 45025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 45454
+    EndTime: 45454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 45882
+    EndTime: 45882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 46311
+    EndTime: 46311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 46739
+    EndTime: 46739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 47168
+    EndTime: 47168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 47596
+    EndTime: 47596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 48025
+    EndTime: 48025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 48454
+    EndTime: 48454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 48882
+    EndTime: 48882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 49311
+    EndTime: 49311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 49739
+    EndTime: 49739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 50168
+    EndTime: 50168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 50596
+    EndTime: 50596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 51025
+    EndTime: 51025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 51454
+    EndTime: 51454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 51882
+    EndTime: 51882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 52311
+    EndTime: 52311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 52739
+    EndTime: 52739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 53168
+    EndTime: 53168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 53596
+    EndTime: 53596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 54025
+    EndTime: 54025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 54454
+    EndTime: 54454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 54882
+    EndTime: 54882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 55311
+    EndTime: 55311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 55739
+    EndTime: 55739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 56168
+    EndTime: 56168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 56596
+    EndTime: 56596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 57025
+    EndTime: 57025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 57454
+    EndTime: 57454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 57882
+    EndTime: 57882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 58311
+    EndTime: 58311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 58739
+    EndTime: 58739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 59168
+    EndTime: 59168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 59596
+    EndTime: 59596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 60025
+    EndTime: 60025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 60454
+    EndTime: 60454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 60882
+    EndTime: 60882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 61311
+    EndTime: 61311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 61739
+    EndTime: 61739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 62168
+    EndTime: 62168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 62596
+    EndTime: 62596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 63025
+    EndTime: 63025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 63454
+    EndTime: 63454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 63882
+    EndTime: 63882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 64311
+    EndTime: 64311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 64739
+    EndTime: 64739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 65168
+    EndTime: 65168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 65596
+    EndTime: 65596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 66025
+    EndTime: 66025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 66454
+    EndTime: 66454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 66882
+    EndTime: 66882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 67311
+    EndTime: 67311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 67739
+    EndTime: 67739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 68168
+    EndTime: 68168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 68596
+    EndTime: 68596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 69025
+    EndTime: 69025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 69454
+    EndTime: 69454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 69882
+    EndTime: 69882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 70311
+    EndTime: 70311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 70739
+    EndTime: 70739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 71168
+    EndTime: 71168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 71596
+    EndTime: 71596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 72025
+    EndTime: 72025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 72454
+    EndTime: 72454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 72882
+    EndTime: 72882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 73311
+    EndTime: 73311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 73739
+    EndTime: 73739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 74168
+    EndTime: 74168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 74596
+    EndTime: 74596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 75025
+    EndTime: 75025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 75454
+    EndTime: 75454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 75882
+    EndTime: 75882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 76311
+    EndTime: 76311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 76739
+    EndTime: 76739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 77168
+    EndTime: 77168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 77596
+    EndTime: 77596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 78025
+    EndTime: 78025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 78454
+    EndTime: 78454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 78882
+    EndTime: 78882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 79311
+    EndTime: 79311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 79739
+    EndTime: 79739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 80168
+    EndTime: 80168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 80596
+    EndTime: 80596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 81025
+    EndTime: 81025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 81454
+    EndTime: 81454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 81882
+    EndTime: 81882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 82311
+    EndTime: 82311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 82739
+    EndTime: 82739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 83168
+    EndTime: 83168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 83596
+    EndTime: 83596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 84025
+    EndTime: 84025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 84454
+    EndTime: 84454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 84882
+    EndTime: 84882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 85311
+    EndTime: 85311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 85739
+    EndTime: 85739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 86168
+    EndTime: 86168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 86596
+    EndTime: 86596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 87025
+    EndTime: 87025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 87454
+    EndTime: 87454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 87882
+    EndTime: 87882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 88311
+    EndTime: 88311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 88739
+    EndTime: 88739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 89168
+    EndTime: 89168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 89596
+    EndTime: 89596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 90025
+    EndTime: 90025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 90454
+    EndTime: 90454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 90882
+    EndTime: 90882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 91311
+    EndTime: 91311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 91739
+    EndTime: 91739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 92168
+    EndTime: 92168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 92596
+    EndTime: 92596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 93025
+    EndTime: 93025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 93454
+    EndTime: 93454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 93882
+    EndTime: 93882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 94311
+    EndTime: 94311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 94739
+    EndTime: 94739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 95168
+    EndTime: 95168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 95596
+    EndTime: 95596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 96025
+    EndTime: 96025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 96454
+    EndTime: 96454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 96882
+    EndTime: 96882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 97311
+    EndTime: 97311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 97739
+    EndTime: 97739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 98168
+    EndTime: 98168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 98596
+    EndTime: 98596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 99025
+    EndTime: 99025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 99454
+    EndTime: 99454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 99882
+    EndTime: 99882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 100311
+    EndTime: 100311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 100739
+    EndTime: 100739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 101168
+    EndTime: 101168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 101596
+    EndTime: 101596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 102025
+    EndTime: 102025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 102454
+    EndTime: 102454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 102882
+    EndTime: 102882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 103311
+    EndTime: 103311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 103739
+    EndTime: 103739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 104168
+    EndTime: 104168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 104596
+    EndTime: 104596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 105025
+    EndTime: 105025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 105454
+    EndTime: 105454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 105882
+    EndTime: 105882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 106311
+    EndTime: 106311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 106739
+    EndTime: 106739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 107168
+    EndTime: 107168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 107596
+    EndTime: 107596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 108025
+    EndTime: 108025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 108454
+    EndTime: 108454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 108882
+    EndTime: 108882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 109311
+    EndTime: 109311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 109739
+    EndTime: 109739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 110168
+    EndTime: 110168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 110596
+    EndTime: 110596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 111025
+    EndTime: 111025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 111454
+    EndTime: 111454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 111882
+    EndTime: 111882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 112311
+    EndTime: 112311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 112739
+    EndTime: 112739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 113168
+    EndTime: 113168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 113596
+    EndTime: 113596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 114025
+    EndTime: 114025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 114454
+    EndTime: 114454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 114882
+    EndTime: 114882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 115311
+    EndTime: 115311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 115739
+    EndTime: 115739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 116168
+    EndTime: 116168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 116596
+    EndTime: 116596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 117025
+    EndTime: 117025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 117454
+    EndTime: 117454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 117882
+    EndTime: 117882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 118311
+    EndTime: 118311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 118739
+    EndTime: 118739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 119168
+    EndTime: 119168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 119596
+    EndTime: 119596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 120025
+    EndTime: 120025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 120454
+    EndTime: 120454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 120882
+    EndTime: 120882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 121311
+    EndTime: 121311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 121739
+    EndTime: 121739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 122168
+    EndTime: 122168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 122596
+    EndTime: 122596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 123025
+    EndTime: 123025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 123454
+    EndTime: 123454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 123882
+    EndTime: 123882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 124311
+    EndTime: 124311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 124739
+    EndTime: 124739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 125168
+    EndTime: 125168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 125596
+    EndTime: 125596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 126025
+    EndTime: 126025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 126454
+    EndTime: 126454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 126882
+    EndTime: 126882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 127311
+    EndTime: 127311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 127739
+    EndTime: 127739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 128168
+    EndTime: 128168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 128596
+    EndTime: 128596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 129025
+    EndTime: 129025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 129454
+    EndTime: 129454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 129882
+    EndTime: 129882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 130311
+    EndTime: 130311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 130739
+    EndTime: 130739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 131168
+    EndTime: 131168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 131596
+    EndTime: 131596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 132025
+    EndTime: 132025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 132454
+    EndTime: 132454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 132882
+    EndTime: 132882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 133311
+    EndTime: 133311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 133739
+    EndTime: 133739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 134168
+    EndTime: 134168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 134596
+    EndTime: 134596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 135025
+    EndTime: 135025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 135454
+    EndTime: 135454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 135882
+    EndTime: 135882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 136311
+    EndTime: 136311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 136739
+    EndTime: 136739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 137168
+    EndTime: 137168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 137596
+    EndTime: 137596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 138025
+    EndTime: 138025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 138454
+    EndTime: 138454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 138882
+    EndTime: 138882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 139311
+    EndTime: 139311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 139739
+    EndTime: 139739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 140168
+    EndTime: 140168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 140596
+    EndTime: 140596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 141025
+    EndTime: 141025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 141454
+    EndTime: 141454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 141882
+    EndTime: 141882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 142311
+    EndTime: 142311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 142739
+    EndTime: 142739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 143168
+    EndTime: 143168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 143596
+    EndTime: 143596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 144025
+    EndTime: 144025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 144454
+    EndTime: 144454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 144882
+    EndTime: 144882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 145311
+    EndTime: 145311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 145739
+    EndTime: 145739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 146168
+    EndTime: 146168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 146596
+    EndTime: 146596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 147025
+    EndTime: 147025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 147454
+    EndTime: 147454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 147882
+    EndTime: 147882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 148311
+    EndTime: 148311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 148739
+    EndTime: 148739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 149168
+    EndTime: 149168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 149596
+    EndTime: 149596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 150025
+    EndTime: 150025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 150454
+    EndTime: 150454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 150882
+    EndTime: 150882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 151311
+    EndTime: 151311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 151739
+    EndTime: 151739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 152168
+    EndTime: 152168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 152596
+    EndTime: 152596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 153025
+    EndTime: 153025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 153454
+    EndTime: 153454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 153882
+    EndTime: 153882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 154311
+    EndTime: 154311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 154739
+    EndTime: 154739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 155168
+    EndTime: 155168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 155596
+    EndTime: 155596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 156025
+    EndTime: 156025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 156454
+    EndTime: 156454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 156882
+    EndTime: 156882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 157311
+    EndTime: 157311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 157739
+    EndTime: 157739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 158168
+    EndTime: 158168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 158596
+    EndTime: 158596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 159025
+    EndTime: 159025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 159454
+    EndTime: 159454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 159882
+    EndTime: 159882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 160311
+    EndTime: 160311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 160739
+    EndTime: 160739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 161168
+    EndTime: 161168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 161596
+    EndTime: 161596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 162025
+    EndTime: 162025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 162454
+    EndTime: 162454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 162882
+    EndTime: 162882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 163311
+    EndTime: 163311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 163739
+    EndTime: 163739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 164168
+    EndTime: 164168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 164596
+    EndTime: 164596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 165025
+    EndTime: 165025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 165454
+    EndTime: 165454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 165882
+    EndTime: 165882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 166311
+    EndTime: 166311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 166739
+    EndTime: 166739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 167168
+    EndTime: 167168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 167596
+    EndTime: 167596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 168025
+    EndTime: 168025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 168454
+    EndTime: 168454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 168882
+    EndTime: 168882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 169311
+    EndTime: 169311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 169739
+    EndTime: 169739
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 170168
+    EndTime: 170168
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 170596
+    EndTime: 170596
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 171025
+    EndTime: 171025
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 171454
+    EndTime: 171454
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 171882
+    EndTime: 171882
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 172311
+    EndTime: 172311
+    IsNewCombo: 0
+    ComboOffset: 0
+  - Position: {x: 0, y: 0}
+    StartTime: 172739
+    EndTime: 172739
+    IsNewCombo: 0
+    ComboOffset: 0
