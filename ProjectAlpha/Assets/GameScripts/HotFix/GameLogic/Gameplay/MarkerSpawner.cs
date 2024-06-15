@@ -29,11 +29,11 @@ namespace ProjectAlpha
 
         private void Update()
         {
-            while (Metronome.Current.IsPlaying && _beatTimesQueue.Count > 0 &&
-                   _beatTimesQueue.Peek() <= Metronome.Current.AudioTime + PreGenerateMiliseconds)
+            while (MetronomePlayer.Current.IsPlaying && _beatTimesQueue.Count > 0 &&
+                   _beatTimesQueue.Peek() <= MetronomePlayer.Current.AudioTime + PreGenerateMiliseconds)
             {
                 float beatTime = _beatTimesQueue.Dequeue();
-                if (beatTime >= Metronome.Current.AudioTime)
+                if (beatTime >= MetronomePlayer.Current.AudioTime)
                 {
                     _beatMarkersUseList.Add(Spawn(beatTime));
                 }
@@ -59,7 +59,7 @@ namespace ProjectAlpha
 
         public void OnPlay()
         {
-            _beatTimesQueue = new Queue<float>(Metronome.Current.BeatTimes);
+            _beatTimesQueue = new Queue<float>(MetronomePlayer.Current.BeatTimes);
         }
 
         public void OnPause()

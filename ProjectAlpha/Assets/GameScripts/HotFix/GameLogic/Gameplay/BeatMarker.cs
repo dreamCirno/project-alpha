@@ -1,5 +1,3 @@
-using System;
-using TEngine;
 using UnityEngine;
 
 namespace ProjectAlpha
@@ -25,7 +23,7 @@ namespace ProjectAlpha
         private void Update()
         {
             // 计算当前时间在移动过程中的百分比
-            float percent = Mathf.Clamp01(Metronome.Current.AudioTime / Time);
+            float percent = Mathf.Clamp01(MetronomePlayer.Current.AudioTime / Time);
             MoveTo(LeftRectTransform, LeftStartPoint, percent);
             MoveTo(RightRectTransform, RightStartPoint, percent);
 
