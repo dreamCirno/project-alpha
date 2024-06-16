@@ -18,1748 +18,4200 @@ MonoBehaviour:
     EndTime: 0
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 474, y: 0}
     StartTime: 474
     EndTime: 474
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 935, y: 0}
     StartTime: 935
     EndTime: 935
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 1397, y: 0}
     StartTime: 1397
     EndTime: 1397
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 1858, y: 0}
     StartTime: 1858
     EndTime: 1858
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 2320, y: 0}
     StartTime: 2320
     EndTime: 2320
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 2781, y: 0}
     StartTime: 2781
     EndTime: 2781
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 3243, y: 0}
     StartTime: 3243
     EndTime: 3243
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 3704, y: 0}
     StartTime: 3704
     EndTime: 3704
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 4166, y: 0}
     StartTime: 4166
     EndTime: 4166
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 4627, y: 0}
     StartTime: 4627
     EndTime: 4627
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 5089, y: 0}
     StartTime: 5089
     EndTime: 5089
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 5550, y: 0}
     StartTime: 5550
     EndTime: 5550
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 6012, y: 0}
     StartTime: 6012
     EndTime: 6012
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 6474, y: 0}
     StartTime: 6474
     EndTime: 6474
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 6935, y: 0}
     StartTime: 6935
     EndTime: 6935
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 7397, y: 0}
     StartTime: 7397
     EndTime: 7397
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 7858, y: 0}
     StartTime: 7858
     EndTime: 7858
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 8320, y: 0}
     StartTime: 8320
     EndTime: 8320
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 8781, y: 0}
     StartTime: 8781
     EndTime: 8781
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 9243, y: 0}
     StartTime: 9243
     EndTime: 9243
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 9704, y: 0}
     StartTime: 9704
     EndTime: 9704
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 10166, y: 0}
     StartTime: 10166
     EndTime: 10166
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 10627, y: 0}
     StartTime: 10627
     EndTime: 10627
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 11089, y: 0}
     StartTime: 11089
     EndTime: 11089
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 11550, y: 0}
     StartTime: 11550
     EndTime: 11550
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 12012, y: 0}
     StartTime: 12012
     EndTime: 12012
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 12474, y: 0}
     StartTime: 12474
     EndTime: 12474
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 12935, y: 0}
     StartTime: 12935
     EndTime: 12935
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 13397, y: 0}
     StartTime: 13397
     EndTime: 13397
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 13858, y: 0}
     StartTime: 13858
     EndTime: 13858
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 14320, y: 0}
     StartTime: 14320
     EndTime: 14320
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 14781, y: 0}
     StartTime: 14781
     EndTime: 14781
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 15243, y: 0}
     StartTime: 15243
     EndTime: 15243
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 15704, y: 0}
     StartTime: 15704
     EndTime: 15704
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 16166, y: 0}
     StartTime: 16166
     EndTime: 16166
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 16627, y: 0}
     StartTime: 16627
     EndTime: 16627
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 17089, y: 0}
     StartTime: 17089
     EndTime: 17089
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 17550, y: 0}
     StartTime: 17550
     EndTime: 17550
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 18012, y: 0}
     StartTime: 18012
     EndTime: 18012
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 18474, y: 0}
     StartTime: 18474
     EndTime: 18474
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 18935, y: 0}
     StartTime: 18935
     EndTime: 18935
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 19397, y: 0}
     StartTime: 19397
     EndTime: 19397
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 19858, y: 0}
     StartTime: 19858
     EndTime: 19858
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 20320, y: 0}
     StartTime: 20320
     EndTime: 20320
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 20781, y: 0}
     StartTime: 20781
     EndTime: 20781
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 21243, y: 0}
     StartTime: 21243
     EndTime: 21243
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 21704, y: 0}
     StartTime: 21704
     EndTime: 21704
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 22166, y: 0}
     StartTime: 22166
     EndTime: 22166
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 22627, y: 0}
     StartTime: 22627
     EndTime: 22627
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 23089, y: 0}
     StartTime: 23089
     EndTime: 23089
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 23550, y: 0}
     StartTime: 23550
     EndTime: 23550
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 24012, y: 0}
     StartTime: 24012
     EndTime: 24012
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 24474, y: 0}
     StartTime: 24474
     EndTime: 24474
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 24935, y: 0}
     StartTime: 24935
     EndTime: 24935
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 25397, y: 0}
     StartTime: 25397
     EndTime: 25397
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 25858, y: 0}
     StartTime: 25858
     EndTime: 25858
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 26320, y: 0}
     StartTime: 26320
     EndTime: 26320
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 26781, y: 0}
     StartTime: 26781
     EndTime: 26781
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 27243, y: 0}
     StartTime: 27243
     EndTime: 27243
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 27704, y: 0}
     StartTime: 27704
     EndTime: 27704
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 28166, y: 0}
     StartTime: 28166
     EndTime: 28166
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 28627, y: 0}
     StartTime: 28627
     EndTime: 28627
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 29089, y: 0}
     StartTime: 29089
     EndTime: 29089
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 29550, y: 0}
     StartTime: 29550
     EndTime: 29550
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 30012, y: 0}
     StartTime: 30012
     EndTime: 30012
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 30474, y: 0}
     StartTime: 30474
     EndTime: 30474
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 30935, y: 0}
     StartTime: 30935
     EndTime: 30935
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 31397, y: 0}
     StartTime: 31397
     EndTime: 31397
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 31858, y: 0}
     StartTime: 31858
     EndTime: 31858
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 32320, y: 0}
     StartTime: 32320
     EndTime: 32320
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 32781, y: 0}
     StartTime: 32781
     EndTime: 32781
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 33243, y: 0}
     StartTime: 33243
     EndTime: 33243
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 33704, y: 0}
     StartTime: 33704
     EndTime: 33704
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 34166, y: 0}
     StartTime: 34166
     EndTime: 34166
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 34627, y: 0}
     StartTime: 34627
     EndTime: 34627
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 35089, y: 0}
     StartTime: 35089
     EndTime: 35089
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 35550, y: 0}
     StartTime: 35550
     EndTime: 35550
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 36012, y: 0}
     StartTime: 36012
     EndTime: 36012
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 36474, y: 0}
     StartTime: 36474
     EndTime: 36474
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 36935, y: 0}
     StartTime: 36935
     EndTime: 36935
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 37397, y: 0}
     StartTime: 37397
     EndTime: 37397
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 37858, y: 0}
     StartTime: 37858
     EndTime: 37858
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 38320, y: 0}
     StartTime: 38320
     EndTime: 38320
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 38781, y: 0}
     StartTime: 38781
     EndTime: 38781
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 39243, y: 0}
     StartTime: 39243
     EndTime: 39243
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 39704, y: 0}
     StartTime: 39704
     EndTime: 39704
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 40166, y: 0}
     StartTime: 40166
     EndTime: 40166
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 40627, y: 0}
     StartTime: 40627
     EndTime: 40627
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 41089, y: 0}
     StartTime: 41089
     EndTime: 41089
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 41550, y: 0}
     StartTime: 41550
     EndTime: 41550
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 42012, y: 0}
     StartTime: 42012
     EndTime: 42012
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 42474, y: 0}
     StartTime: 42474
     EndTime: 42474
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 42935, y: 0}
     StartTime: 42935
     EndTime: 42935
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 43397, y: 0}
     StartTime: 43397
     EndTime: 43397
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 43858, y: 0}
     StartTime: 43858
     EndTime: 43858
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 44320, y: 0}
     StartTime: 44320
     EndTime: 44320
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 44781, y: 0}
     StartTime: 44781
     EndTime: 44781
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 45243, y: 0}
     StartTime: 45243
     EndTime: 45243
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 45704, y: 0}
     StartTime: 45704
     EndTime: 45704
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 46166, y: 0}
     StartTime: 46166
     EndTime: 46166
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 46627, y: 0}
     StartTime: 46627
     EndTime: 46627
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 47089, y: 0}
     StartTime: 47089
     EndTime: 47089
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 47550, y: 0}
     StartTime: 47550
     EndTime: 47550
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 48012, y: 0}
     StartTime: 48012
     EndTime: 48012
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 48474, y: 0}
     StartTime: 48474
     EndTime: 48474
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 48935, y: 0}
     StartTime: 48935
     EndTime: 48935
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 49397, y: 0}
     StartTime: 49397
     EndTime: 49397
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 49858, y: 0}
     StartTime: 49858
     EndTime: 49858
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 50320, y: 0}
     StartTime: 50320
     EndTime: 50320
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 50781, y: 0}
     StartTime: 50781
     EndTime: 50781
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 51243, y: 0}
     StartTime: 51243
     EndTime: 51243
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 51704, y: 0}
     StartTime: 51704
     EndTime: 51704
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 52166, y: 0}
     StartTime: 52166
     EndTime: 52166
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 52627, y: 0}
     StartTime: 52627
     EndTime: 52627
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 53089, y: 0}
     StartTime: 53089
     EndTime: 53089
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 53550, y: 0}
     StartTime: 53550
     EndTime: 53550
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 54012, y: 0}
     StartTime: 54012
     EndTime: 54012
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 54474, y: 0}
     StartTime: 54474
     EndTime: 54474
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 54935, y: 0}
     StartTime: 54935
     EndTime: 54935
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 55397, y: 0}
     StartTime: 55397
     EndTime: 55397
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 55858, y: 0}
     StartTime: 55858
     EndTime: 55858
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 56320, y: 0}
     StartTime: 56320
     EndTime: 56320
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 56781, y: 0}
     StartTime: 56781
     EndTime: 56781
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 57243, y: 0}
     StartTime: 57243
     EndTime: 57243
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 57704, y: 0}
     StartTime: 57704
     EndTime: 57704
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 58166, y: 0}
     StartTime: 58166
     EndTime: 58166
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 58627, y: 0}
     StartTime: 58627
     EndTime: 58627
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 59089, y: 0}
     StartTime: 59089
     EndTime: 59089
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 59550, y: 0}
     StartTime: 59550
     EndTime: 59550
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 60012, y: 0}
     StartTime: 60012
     EndTime: 60012
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 60474, y: 0}
     StartTime: 60474
     EndTime: 60474
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 60935, y: 0}
     StartTime: 60935
     EndTime: 60935
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 61397, y: 0}
     StartTime: 61397
     EndTime: 61397
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 61858, y: 0}
     StartTime: 61858
     EndTime: 61858
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 62320, y: 0}
     StartTime: 62320
     EndTime: 62320
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 62781, y: 0}
     StartTime: 62781
     EndTime: 62781
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 63243, y: 0}
     StartTime: 63243
     EndTime: 63243
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 63704, y: 0}
     StartTime: 63704
     EndTime: 63704
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 64166, y: 0}
     StartTime: 64166
     EndTime: 64166
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 64627, y: 0}
     StartTime: 64627
     EndTime: 64627
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 65089, y: 0}
     StartTime: 65089
     EndTime: 65089
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 65550, y: 0}
     StartTime: 65550
     EndTime: 65550
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 66012, y: 0}
     StartTime: 66012
     EndTime: 66012
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 66474, y: 0}
     StartTime: 66474
     EndTime: 66474
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 66935, y: 0}
     StartTime: 66935
     EndTime: 66935
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 67397, y: 0}
     StartTime: 67397
     EndTime: 67397
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 67858, y: 0}
     StartTime: 67858
     EndTime: 67858
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 68320, y: 0}
     StartTime: 68320
     EndTime: 68320
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 68781, y: 0}
     StartTime: 68781
     EndTime: 68781
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 69243, y: 0}
     StartTime: 69243
     EndTime: 69243
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 69704, y: 0}
     StartTime: 69704
     EndTime: 69704
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 70166, y: 0}
     StartTime: 70166
     EndTime: 70166
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 70627, y: 0}
     StartTime: 70627
     EndTime: 70627
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 71089, y: 0}
     StartTime: 71089
     EndTime: 71089
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 71550, y: 0}
     StartTime: 71550
     EndTime: 71550
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 72012, y: 0}
     StartTime: 72012
     EndTime: 72012
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 72474, y: 0}
     StartTime: 72474
     EndTime: 72474
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 72935, y: 0}
     StartTime: 72935
     EndTime: 72935
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 73397, y: 0}
     StartTime: 73397
     EndTime: 73397
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 73858, y: 0}
     StartTime: 73858
     EndTime: 73858
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 74320, y: 0}
     StartTime: 74320
     EndTime: 74320
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 74781, y: 0}
     StartTime: 74781
     EndTime: 74781
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 75243, y: 0}
     StartTime: 75243
     EndTime: 75243
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 75704, y: 0}
     StartTime: 75704
     EndTime: 75704
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 76166, y: 0}
     StartTime: 76166
     EndTime: 76166
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 76627, y: 0}
     StartTime: 76627
     EndTime: 76627
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 77089, y: 0}
     StartTime: 77089
     EndTime: 77089
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 77550, y: 0}
     StartTime: 77550
     EndTime: 77550
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 78012, y: 0}
     StartTime: 78012
     EndTime: 78012
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 78474, y: 0}
     StartTime: 78474
     EndTime: 78474
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 78935, y: 0}
     StartTime: 78935
     EndTime: 78935
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 79397, y: 0}
     StartTime: 79397
     EndTime: 79397
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 79858, y: 0}
     StartTime: 79858
     EndTime: 79858
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 80320, y: 0}
     StartTime: 80320
     EndTime: 80320
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 80781, y: 0}
     StartTime: 80781
     EndTime: 80781
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 81243, y: 0}
     StartTime: 81243
     EndTime: 81243
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 81704, y: 0}
     StartTime: 81704
     EndTime: 81704
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 82166, y: 0}
     StartTime: 82166
     EndTime: 82166
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 82627, y: 0}
     StartTime: 82627
     EndTime: 82627
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 83089, y: 0}
     StartTime: 83089
     EndTime: 83089
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 83550, y: 0}
     StartTime: 83550
     EndTime: 83550
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 84012, y: 0}
     StartTime: 84012
     EndTime: 84012
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 84474, y: 0}
     StartTime: 84474
     EndTime: 84474
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 84935, y: 0}
     StartTime: 84935
     EndTime: 84935
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 85397, y: 0}
     StartTime: 85397
     EndTime: 85397
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 85858, y: 0}
     StartTime: 85858
     EndTime: 85858
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 86320, y: 0}
     StartTime: 86320
     EndTime: 86320
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 86781, y: 0}
     StartTime: 86781
     EndTime: 86781
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 87243, y: 0}
     StartTime: 87243
     EndTime: 87243
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 87704, y: 0}
     StartTime: 87704
     EndTime: 87704
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 88166, y: 0}
     StartTime: 88166
     EndTime: 88166
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 88627, y: 0}
     StartTime: 88627
     EndTime: 88627
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 89089, y: 0}
     StartTime: 89089
     EndTime: 89089
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 89550, y: 0}
     StartTime: 89550
     EndTime: 89550
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 90012, y: 0}
     StartTime: 90012
     EndTime: 90012
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 90474, y: 0}
     StartTime: 90474
     EndTime: 90474
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 90935, y: 0}
     StartTime: 90935
     EndTime: 90935
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 91397, y: 0}
     StartTime: 91397
     EndTime: 91397
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 91858, y: 0}
     StartTime: 91858
     EndTime: 91858
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 92320, y: 0}
     StartTime: 92320
     EndTime: 92320
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 92781, y: 0}
     StartTime: 92781
     EndTime: 92781
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 93243, y: 0}
     StartTime: 93243
     EndTime: 93243
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 93704, y: 0}
     StartTime: 93704
     EndTime: 93704
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 94166, y: 0}
     StartTime: 94166
     EndTime: 94166
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 94627, y: 0}
     StartTime: 94627
     EndTime: 94627
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 95089, y: 0}
     StartTime: 95089
     EndTime: 95089
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 95550, y: 0}
     StartTime: 95550
     EndTime: 95550
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 96012, y: 0}
     StartTime: 96012
     EndTime: 96012
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 96474, y: 0}
     StartTime: 96474
     EndTime: 96474
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 96935, y: 0}
     StartTime: 96935
     EndTime: 96935
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 97397, y: 0}
     StartTime: 97397
     EndTime: 97397
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 97858, y: 0}
     StartTime: 97858
     EndTime: 97858
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 98320, y: 0}
     StartTime: 98320
     EndTime: 98320
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 98781, y: 0}
     StartTime: 98781
     EndTime: 98781
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 99243, y: 0}
     StartTime: 99243
     EndTime: 99243
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 99704, y: 0}
     StartTime: 99704
     EndTime: 99704
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 100166, y: 0}
     StartTime: 100166
     EndTime: 100166
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 100627, y: 0}
     StartTime: 100627
     EndTime: 100627
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 101089, y: 0}
     StartTime: 101089
     EndTime: 101089
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 101550, y: 0}
     StartTime: 101550
     EndTime: 101550
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 102012, y: 0}
     StartTime: 102012
     EndTime: 102012
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 102474, y: 0}
     StartTime: 102474
     EndTime: 102474
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 102935, y: 0}
     StartTime: 102935
     EndTime: 102935
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 103397, y: 0}
     StartTime: 103397
     EndTime: 103397
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 103858, y: 0}
     StartTime: 103858
     EndTime: 103858
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 104320, y: 0}
     StartTime: 104320
     EndTime: 104320
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 104781, y: 0}
     StartTime: 104781
     EndTime: 104781
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 105243, y: 0}
     StartTime: 105243
     EndTime: 105243
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 105704, y: 0}
     StartTime: 105704
     EndTime: 105704
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 106166, y: 0}
     StartTime: 106166
     EndTime: 106166
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 106627, y: 0}
     StartTime: 106627
     EndTime: 106627
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 107089, y: 0}
     StartTime: 107089
     EndTime: 107089
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 107550, y: 0}
     StartTime: 107550
     EndTime: 107550
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 108012, y: 0}
     StartTime: 108012
     EndTime: 108012
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 108474, y: 0}
     StartTime: 108474
     EndTime: 108474
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 108935, y: 0}
     StartTime: 108935
     EndTime: 108935
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 109397, y: 0}
     StartTime: 109397
     EndTime: 109397
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 109858, y: 0}
     StartTime: 109858
     EndTime: 109858
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 110320, y: 0}
     StartTime: 110320
     EndTime: 110320
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 110781, y: 0}
     StartTime: 110781
     EndTime: 110781
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 111243, y: 0}
     StartTime: 111243
     EndTime: 111243
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 111704, y: 0}
     StartTime: 111704
     EndTime: 111704
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 112166, y: 0}
     StartTime: 112166
     EndTime: 112166
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 112627, y: 0}
     StartTime: 112627
     EndTime: 112627
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 113089, y: 0}
     StartTime: 113089
     EndTime: 113089
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 113550, y: 0}
     StartTime: 113550
     EndTime: 113550
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 114012, y: 0}
     StartTime: 114012
     EndTime: 114012
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 114474, y: 0}
     StartTime: 114474
     EndTime: 114474
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 114935, y: 0}
     StartTime: 114935
     EndTime: 114935
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 115397, y: 0}
     StartTime: 115397
     EndTime: 115397
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 115858, y: 0}
     StartTime: 115858
     EndTime: 115858
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 116320, y: 0}
     StartTime: 116320
     EndTime: 116320
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 116781, y: 0}
     StartTime: 116781
     EndTime: 116781
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 117243, y: 0}
     StartTime: 117243
     EndTime: 117243
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 117704, y: 0}
     StartTime: 117704
     EndTime: 117704
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 118166, y: 0}
     StartTime: 118166
     EndTime: 118166
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 118627, y: 0}
     StartTime: 118627
     EndTime: 118627
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 119089, y: 0}
     StartTime: 119089
     EndTime: 119089
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 119550, y: 0}
     StartTime: 119550
     EndTime: 119550
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 120012, y: 0}
     StartTime: 120012
     EndTime: 120012
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 120474, y: 0}
     StartTime: 120474
     EndTime: 120474
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 120935, y: 0}
     StartTime: 120935
     EndTime: 120935
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 121397, y: 0}
     StartTime: 121397
     EndTime: 121397
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 121858, y: 0}
     StartTime: 121858
     EndTime: 121858
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 122320, y: 0}
     StartTime: 122320
     EndTime: 122320
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 122781, y: 0}
     StartTime: 122781
     EndTime: 122781
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 123243, y: 0}
     StartTime: 123243
     EndTime: 123243
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 123704, y: 0}
     StartTime: 123704
     EndTime: 123704
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 124166, y: 0}
     StartTime: 124166
     EndTime: 124166
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 124627, y: 0}
     StartTime: 124627
     EndTime: 124627
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 125089, y: 0}
     StartTime: 125089
     EndTime: 125089
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 125550, y: 0}
     StartTime: 125550
     EndTime: 125550
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 126012, y: 0}
     StartTime: 126012
     EndTime: 126012
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 126474, y: 0}
     StartTime: 126474
     EndTime: 126474
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 126935, y: 0}
     StartTime: 126935
     EndTime: 126935
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 127397, y: 0}
     StartTime: 127397
     EndTime: 127397
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 127858, y: 0}
     StartTime: 127858
     EndTime: 127858
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 128320, y: 0}
     StartTime: 128320
     EndTime: 128320
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 128781, y: 0}
     StartTime: 128781
     EndTime: 128781
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 129243, y: 0}
     StartTime: 129243
     EndTime: 129243
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 129704, y: 0}
     StartTime: 129704
     EndTime: 129704
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 130166, y: 0}
     StartTime: 130166
     EndTime: 130166
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 130627, y: 0}
     StartTime: 130627
     EndTime: 130627
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 131089, y: 0}
     StartTime: 131089
     EndTime: 131089
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 131550, y: 0}
     StartTime: 131550
     EndTime: 131550
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 132012, y: 0}
     StartTime: 132012
     EndTime: 132012
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 132474, y: 0}
     StartTime: 132474
     EndTime: 132474
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 132935, y: 0}
     StartTime: 132935
     EndTime: 132935
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 133397, y: 0}
     StartTime: 133397
     EndTime: 133397
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 133858, y: 0}
     StartTime: 133858
     EndTime: 133858
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 134320, y: 0}
     StartTime: 134320
     EndTime: 134320
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 134781, y: 0}
     StartTime: 134781
     EndTime: 134781
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 135243, y: 0}
     StartTime: 135243
     EndTime: 135243
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 135704, y: 0}
     StartTime: 135704
     EndTime: 135704
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 136166, y: 0}
     StartTime: 136166
     EndTime: 136166
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 136627, y: 0}
     StartTime: 136627
     EndTime: 136627
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 137089, y: 0}
     StartTime: 137089
     EndTime: 137089
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 137550, y: 0}
     StartTime: 137550
     EndTime: 137550
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 138012, y: 0}
     StartTime: 138012
     EndTime: 138012
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 138474, y: 0}
     StartTime: 138474
     EndTime: 138474
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 138935, y: 0}
     StartTime: 138935
     EndTime: 138935
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 139397, y: 0}
     StartTime: 139397
     EndTime: 139397
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 139858, y: 0}
     StartTime: 139858
     EndTime: 139858
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 140320, y: 0}
     StartTime: 140320
     EndTime: 140320
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 140781, y: 0}
     StartTime: 140781
     EndTime: 140781
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 141243, y: 0}
     StartTime: 141243
     EndTime: 141243
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 141704, y: 0}
     StartTime: 141704
     EndTime: 141704
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 142166, y: 0}
     StartTime: 142166
     EndTime: 142166
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 142627, y: 0}
     StartTime: 142627
     EndTime: 142627
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 143089, y: 0}
     StartTime: 143089
     EndTime: 143089
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 143550, y: 0}
     StartTime: 143550
     EndTime: 143550
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 144012, y: 0}
     StartTime: 144012
     EndTime: 144012
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 144474, y: 0}
     StartTime: 144474
     EndTime: 144474
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 144935, y: 0}
     StartTime: 144935
     EndTime: 144935
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 145397, y: 0}
     StartTime: 145397
     EndTime: 145397
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 145858, y: 0}
     StartTime: 145858
     EndTime: 145858
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 146320, y: 0}
     StartTime: 146320
     EndTime: 146320
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 146781, y: 0}
     StartTime: 146781
     EndTime: 146781
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 147243, y: 0}
     StartTime: 147243
     EndTime: 147243
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 147704, y: 0}
     StartTime: 147704
     EndTime: 147704
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 148166, y: 0}
     StartTime: 148166
     EndTime: 148166
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 148627, y: 0}
     StartTime: 148627
     EndTime: 148627
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 149089, y: 0}
     StartTime: 149089
     EndTime: 149089
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 149550, y: 0}
     StartTime: 149550
     EndTime: 149550
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 150012, y: 0}
     StartTime: 150012
     EndTime: 150012
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 150474, y: 0}
     StartTime: 150474
     EndTime: 150474
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 150935, y: 0}
     StartTime: 150935
     EndTime: 150935
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 151397, y: 0}
     StartTime: 151397
     EndTime: 151397
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 151858, y: 0}
     StartTime: 151858
     EndTime: 151858
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 152320, y: 0}
     StartTime: 152320
     EndTime: 152320
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 152781, y: 0}
     StartTime: 152781
     EndTime: 152781
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 153243, y: 0}
     StartTime: 153243
     EndTime: 153243
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 153704, y: 0}
     StartTime: 153704
     EndTime: 153704
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 154166, y: 0}
     StartTime: 154166
     EndTime: 154166
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 154627, y: 0}
     StartTime: 154627
     EndTime: 154627
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 155089, y: 0}
     StartTime: 155089
     EndTime: 155089
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 155550, y: 0}
     StartTime: 155550
     EndTime: 155550
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 156012, y: 0}
     StartTime: 156012
     EndTime: 156012
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 156474, y: 0}
     StartTime: 156474
     EndTime: 156474
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 156935, y: 0}
     StartTime: 156935
     EndTime: 156935
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 157397, y: 0}
     StartTime: 157397
     EndTime: 157397
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 157858, y: 0}
     StartTime: 157858
     EndTime: 157858
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 158320, y: 0}
     StartTime: 158320
     EndTime: 158320
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 158781, y: 0}
     StartTime: 158781
     EndTime: 158781
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 159243, y: 0}
     StartTime: 159243
     EndTime: 159243
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 159704, y: 0}
     StartTime: 159704
     EndTime: 159704
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 160166, y: 0}
     StartTime: 160166
     EndTime: 160166
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 160627, y: 0}
     StartTime: 160627
     EndTime: 160627
     IsNewCombo: 0
     ComboOffset: 0
-  - Position: {x: 0, y: 0}
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  - Position: {x: 161089, y: 0}
     StartTime: 161089
     EndTime: 161089
     IsNewCombo: 0
     ComboOffset: 0
+    HitSound: 0
+    Extras:
+      SampleSet: 0
+      AdditionSet: 0
+      CustomIndex: 0
+      Volume: 0
+      SampleFileName: 
+  AssetPath: 
+  BgmPath: zone1_2.ogg
