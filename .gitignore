@@ -11,5 +11,5 @@ GenerateDatas/
 #FileServer
 Tools/FileServer/AssetRoot
 
-UnityProject/ProjectSettings/CommonBurstAotSettings.json
-UnityProject/ProjectSettings/BurstAotSettings_StandaloneWindows.json
+ProjectAlpha/ProjectSettings/CommonBurstAotSettings.json
+ProjectAlpha/ProjectSettings/BurstAotSettings_StandaloneWindows.json
