@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DinStudio
-  productName: TEngine
+  companyName: Kyuu Games
+  productName: Project Alpha
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.12156863, g: 0.12156863, b: 0.1254902, a: 1}
@@ -161,6 +161,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
+    Android: com.KyuuGames.ProjectAlpha
     Standalone: com.DinStudio.TEngine
   buildNumber:
     Standalone: 0
@@ -754,24 +755,25 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: ENABLE_LOG;ODIN_VALIDATOR;ODIN_VALIDATOR_3_1;ODIN_INSPECTOR;ODIN_INSPECTOR_3;ODIN_INSPECTOR_3_1;TextMeshPro
+    Android: ENABLE_LOG;ODIN_VALIDATOR;ODIN_VALIDATOR_3_1;ODIN_INSPECTOR;ODIN_INSPECTOR_3;ODIN_INSPECTOR_3_1;TextMeshPro;ENABLE_HYBRIDCLR
     EmbeddedLinux: TextMeshPro
     GameCoreXboxOne: TextMeshPro
     Nintendo Switch: TextMeshPro
     PS4: TextMeshPro
-    PS5: TextMeshPro
+    PS5: TextMeshPro;ENABLE_HYBRIDCLR
     QNX: TextMeshPro
     Stadia: TextMeshPro
-    Standalone: ODIN_INSPECTOR;ODIN_INSPECTOR_3;ODIN_INSPECTOR_3_1;ODIN_VALIDATOR;ODIN_VALIDATOR_3_1;ENABLE_LOG;TextMeshPro
+    Standalone: ODIN_INSPECTOR;ODIN_INSPECTOR_3;ODIN_INSPECTOR_3_1;ODIN_VALIDATOR;ODIN_VALIDATOR_3_1;ENABLE_LOG;TextMeshPro;ENABLE_HYBRIDCLR
     VisionOS: TextMeshPro
-    WebGL: ENABLE_LOG;TextMeshPro
-    Windows Store Apps: ENABLE_LOG
+    WebGL: ENABLE_LOG;TextMeshPro;ENABLE_HYBRIDCLR
+    Windows Store Apps: ENABLE_LOG;ENABLE_HYBRIDCLR
     XboxOne: TextMeshPro
-    iPhone: ENABLE_LOG;TextMeshPro
+    iPhone: ENABLE_LOG;TextMeshPro;ENABLE_HYBRIDCLR
     tvOS: TextMeshPro
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
+    Android: 1
     Standalone: 1
   il2cppCompilerConfiguration: {}
   il2cppCodeGeneration: {}
@@ -873,4 +875,4 @@ PlayerSettings:
   hmiLoadingImage: {fileID: 0}
   platformRequiresReadableAssets: 0
   virtualTexturingSupportEnabled: 0
-  insecureHttpOption: 0
+  insecureHttpOption: 2
