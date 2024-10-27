@@ -2,7 +2,7 @@
 using TEngine;
 using UnityEngine;
 
-namespace GameLogic
+namespace KyuuGames
 {
     public class UILoopListViewWidget<T> : UIWidget where T : UILoopItemWidget, new()
     {

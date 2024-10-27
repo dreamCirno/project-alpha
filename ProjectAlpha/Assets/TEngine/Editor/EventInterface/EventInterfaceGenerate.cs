@@ -28,9 +28,8 @@ using UnityEngine;
 [InitializeOnLoad]
 public static class EventInterfaceGenerate
 {
-    public static string NameSpace = @"GameLogic";
-    
-        
+    public static string NameSpace = @"KyuuGames";
+
     public const string EventInterfacePath = "Assets/GameScripts/HotFix/GameLogic/Event/Interface/";
 
     public static bool BOpenAutoGenerate = false;

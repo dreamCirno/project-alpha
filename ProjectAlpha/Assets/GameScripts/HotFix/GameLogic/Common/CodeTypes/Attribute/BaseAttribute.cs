@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GameLogic
+namespace KyuuGames
 {
     [AttributeUsage(AttributeTargets.Class)]
     public class BaseAttribute: Attribute

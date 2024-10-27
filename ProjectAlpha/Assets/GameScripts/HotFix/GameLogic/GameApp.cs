@@ -1,15 +1,17 @@
 using System.Collections.Generic;
 using System.Reflection;
+using Cysharp.Threading.Tasks;
 using GameBase;
+using KyuuGames;
 using TEngine;
 
 /// <summary>
 /// 游戏App。
 /// </summary>
-public partial class GameApp:Singleton<GameApp>
+public partial class GameApp : Singleton<GameApp>
 {
     private static List<Assembly> _hotfixAssembly;
-    
+
     /// <summary>
     /// 热更域App主入口。
     /// </summary>
@@ -27,7 +29,7 @@ public partial class GameApp:Singleton<GameApp>
         Utility.Unity.AddDestroyListener(Instance.OnDestroy);
         Utility.Unity.AddOnDrawGizmosListener(Instance.OnDrawGizmos);
         Utility.Unity.AddOnApplicationPauseListener(Instance.OnApplicationPause);
-        GameModule.Procedure.RestartProcedure(new GameLogic.OnEnterGameAppProcedure());
+        GameModule.Procedure.RestartProcedure(new KyuuGames.OnEnterGameAppProcedure());
         Instance.StartGameLogic();
     }
 
@@ -37,8 +39,14 @@ public partial class GameApp:Singleton<GameApp>
     /// </summary>
     private void StartGameLogic()
     {
-        
+        StartLobby().Forget();
     }
+
+    private async UniTaskVoid StartLobby()
+    {
+        await GameModule.Scene.LoadScene("lobby").ToUniTask();
+    }
+
 
     /// <summary>
     /// 关闭游戏。
@@ -61,7 +69,7 @@ public partial class GameApp:Singleton<GameApp>
             Utility.Unity.RemoveOnDrawGizmosListener(Instance.OnDrawGizmos);
             Utility.Unity.RemoveOnApplicationPauseListener(Instance.OnApplicationPause);
         }
-        
+
         SingletonSystem.Release();
     }
 
@@ -88,6 +96,7 @@ public partial class GameApp:Singleton<GameApp>
             logic.OnUpdate();
             TProfiler.EndSample();
         }
+
         TProfiler.EndFirstSample();
     }
 
@@ -103,6 +112,7 @@ public partial class GameApp:Singleton<GameApp>
             logic.OnFixedUpdate();
             TProfiler.EndSample();
         }
+
         TProfiler.EndFirstSample();
     }
 
@@ -118,6 +128,7 @@ public partial class GameApp:Singleton<GameApp>
             logic.OnLateUpdate();
             TProfiler.EndSample();
         }
+
         TProfiler.EndFirstSample();
     }
 
@@ -130,6 +141,7 @@ public partial class GameApp:Singleton<GameApp>
             var logic = listLogic[i];
             logic.OnDestroy();
         }
+
         Shutdown(ShutdownType.Restart);
     }
 

@@ -1,6 +1,6 @@
 ﻿using TEngine;
 
-namespace GameLogic
+namespace KyuuGames
 {
     /// <summary>
     /// 示意UI层事件。

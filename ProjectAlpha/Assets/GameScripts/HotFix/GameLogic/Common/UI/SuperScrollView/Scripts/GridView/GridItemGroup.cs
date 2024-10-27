@@ -1,4 +1,4 @@
-﻿namespace GameLogic
+﻿namespace KyuuGames
 {
     //if GridFixedType is GridFixedType.ColumnCountFixed, then the GridItemGroup is one row of the gridview
     //if GridFixedType is GridFixedType.RowCountFixed, then the GridItemGroup is one column of the gridview

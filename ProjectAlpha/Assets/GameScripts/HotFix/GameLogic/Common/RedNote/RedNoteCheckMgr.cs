@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace GameLogic
+namespace KyuuGames
 {
     /// <summary> 红点关联 </summary>
     public class RedNoteCheckMgr

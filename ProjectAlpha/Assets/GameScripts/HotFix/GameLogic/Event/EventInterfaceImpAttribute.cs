@@ -1,6 +1,6 @@
 ﻿using TEngine;
 
-namespace GameLogic
+namespace KyuuGames
 {
     [System.AttributeUsage(System.AttributeTargets.Class)]
     internal class EventInterfaceImpAttribute : BaseAttribute

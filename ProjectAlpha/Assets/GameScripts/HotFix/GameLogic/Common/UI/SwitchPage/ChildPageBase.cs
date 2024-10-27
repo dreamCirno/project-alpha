@@ -1,6 +1,6 @@
 ﻿using TEngine;
 
-namespace GameLogic
+namespace KyuuGames
 {
     /// <summary>
     /// 子界面之间共享的数据。

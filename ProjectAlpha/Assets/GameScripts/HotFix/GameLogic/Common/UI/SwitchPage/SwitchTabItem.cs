@@ -3,7 +3,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace GameLogic
+namespace KyuuGames
 {
     public class SwitchTabItem : UIEventItem<SwitchTabItem>
     {

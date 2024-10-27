@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using TEngine;
 
-namespace GameLogic
+namespace KyuuGames
 {
     /// <summary>
     /// 逻辑层事件接口。

@@ -9,7 +9,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TEngine;
 
-namespace GameLogic
+namespace KyuuGames
 {
 	public partial class IActorLogicEvent_Event
 	{
@@ -56,7 +56,7 @@ namespace GameLogic
             _dispatcher.Send(IActorLogicEvent_Event.OnMainPlayerBindDiamondChange,oldVal,newVal);
         }
 
-        public void OnMainPlayerCurrencyChange(GameLogic.CurrencyType type,System.UInt32 oldVal,System.UInt32 newVal)
+        public void OnMainPlayerCurrencyChange(KyuuGames.CurrencyType type,System.UInt32 oldVal,System.UInt32 newVal)
         {
             _dispatcher.Send(IActorLogicEvent_Event.OnMainPlayerCurrencyChange,type,oldVal,newVal);
         }

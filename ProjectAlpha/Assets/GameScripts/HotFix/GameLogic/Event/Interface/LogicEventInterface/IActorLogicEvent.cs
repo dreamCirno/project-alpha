@@ -1,7 +1,7 @@
 ﻿using System;
 using TEngine;
 
-namespace GameLogic
+namespace KyuuGames
 {
     /// <summary>
     /// 示例货币枚举。

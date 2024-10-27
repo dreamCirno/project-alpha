@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using TEngine;
 
-namespace GameLogic
+namespace KyuuGames
 {
     /// <summary>
     /// UI层事件接口。

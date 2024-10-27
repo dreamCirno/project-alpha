@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace GameLogic
+namespace KyuuGames
 {
     public class UIButtonSound : MonoBehaviour, IPointerClickHandler
     {

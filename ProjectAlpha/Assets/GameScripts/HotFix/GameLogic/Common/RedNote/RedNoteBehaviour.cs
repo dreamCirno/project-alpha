@@ -4,7 +4,7 @@ using TEngine;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace GameLogic
+namespace KyuuGames
 {
     /// <summary>
     /// 红点个体行为。

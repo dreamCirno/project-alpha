@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using TEngine;
 using UnityEngine;
 
-namespace GameLogic
+namespace KyuuGames
 {
     /// <summary>
     /// UI列表。

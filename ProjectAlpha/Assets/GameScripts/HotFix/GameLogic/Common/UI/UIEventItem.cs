@@ -3,7 +3,7 @@ using TEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-namespace GameLogic
+namespace KyuuGames
 {
     public class UIEventItem<T> : UIWidget where T : UIEventItem<T>
     {

@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-namespace GameLogic
+namespace KyuuGames
 {
     [AddComponentMenu("UI/TScrollRect Rect", 37)]
     [SelectionBase]

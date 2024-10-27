@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace GameLogic
+namespace KyuuGames
 {
     public class LoopListViewItem : MonoBehaviour
     {

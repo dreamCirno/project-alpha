@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace GameLogic
+namespace KyuuGames
 {
     public class UnOrderMultiMapSet<TKey, TValue>: Dictionary<TKey, HashSet<TValue>>
     {

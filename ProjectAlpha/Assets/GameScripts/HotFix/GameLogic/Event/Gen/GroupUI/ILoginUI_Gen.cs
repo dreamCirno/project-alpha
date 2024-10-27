@@ -9,7 +9,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TEngine;
 
-namespace GameLogic
+namespace KyuuGames
 {
 	public partial class ILoginUI_Event
 	{

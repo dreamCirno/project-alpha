@@ -7,7 +7,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.Serialization;
 using Object = UnityEngine.Object;
 
-namespace GameLogic
+namespace KyuuGames
 {
     public class ItemPool
     {

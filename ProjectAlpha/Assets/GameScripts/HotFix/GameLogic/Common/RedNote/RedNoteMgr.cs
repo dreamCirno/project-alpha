@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 using GameBase;
-using GameLogic;
+using KyuuGames;
 using TEngine;
 using UnityEngine;
 
-namespace GameLogic
+namespace KyuuGames
 {
     #region 红点添加步骤
 

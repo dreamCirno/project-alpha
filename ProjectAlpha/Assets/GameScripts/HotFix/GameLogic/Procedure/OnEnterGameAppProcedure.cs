@@ -1,6 +1,6 @@
 ﻿using TEngine;
 
-namespace GameLogic
+namespace KyuuGames
 {
     public class OnEnterGameAppProcedure : ProcedureBase
     {

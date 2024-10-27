@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using GameLogic;
+using KyuuGames;
 using TEngine;
 using UnityEngine;
 

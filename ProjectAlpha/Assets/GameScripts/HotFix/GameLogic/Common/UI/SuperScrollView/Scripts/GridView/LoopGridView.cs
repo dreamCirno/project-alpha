@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-namespace GameLogic
+namespace KyuuGames
 {
     [System.Serializable]
     public class GridViewItemPrefabConfData

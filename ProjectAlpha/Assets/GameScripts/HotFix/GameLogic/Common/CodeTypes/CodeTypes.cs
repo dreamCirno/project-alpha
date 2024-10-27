@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Reflection;
 
-namespace GameLogic
+namespace KyuuGames
 {
     public class CodeTypes
     {

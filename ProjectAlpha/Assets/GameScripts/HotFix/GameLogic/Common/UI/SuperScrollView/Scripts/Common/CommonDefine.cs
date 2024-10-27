@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace GameLogic
+namespace KyuuGames
 {
 
     public enum SnapStatus

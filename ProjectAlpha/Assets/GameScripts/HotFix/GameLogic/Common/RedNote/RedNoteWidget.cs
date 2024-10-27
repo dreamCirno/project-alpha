@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace GameLogic
+namespace KyuuGames
 {
     public class RedNoteWidget : UIWidget
     {

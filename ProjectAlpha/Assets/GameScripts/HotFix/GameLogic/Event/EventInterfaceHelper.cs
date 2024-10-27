@@ -1,7 +1,7 @@
 ﻿using System;
 using TEngine;
 
-namespace GameLogic
+namespace KyuuGames
 {
     /// <summary>
     /// 事件接口帮助类。
