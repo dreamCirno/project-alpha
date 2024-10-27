@@ -32,6 +32,9 @@ MonoBehaviour:
     m_Scopes:
     - com.cysharp.unitask
     - com.tuyoogame.yooasset
+    - com.greener-games.sharp-zip-lib
+    - com.greener-games.unity-extensions
+    - com.svermeulen.asyncawaitutil
     m_IsDefault: 0
     m_Capabilities: 0
     m_ConfigSource: 4
