@@ -22,18 +22,18 @@ MonoBehaviour:
       m_ResAdminCode: 0
       m_ServerType: 1
       m_CleanCommitPathRes: 1
-      m_InnerResourceSourceUrl: http://192.168.50.90:8088
-      m_ExtraResourceSourceUrl: http://192.168.50.90:8088
-      m_FormalResourceSourceUrl: http://192.168.50.90:8088
+      m_InnerResourceSourceUrl: http://192.168.50.7:8088
+      m_ExtraResourceSourceUrl: http://192.168.50.7:8088
+      m_FormalResourceSourceUrl: http://192.168.50.7:8088
     m_AtlasFolder: Assets/AssetRaw/Atlas
     HostServerURL: http://127.0.0.1:8081/AssetRoot
     FallbackHostServerURL: http://127.0.0.1:8081/AssetRoot
     EnableUpdateData: 0
-    WindowsUpdateDataUrl: http://192.168.50.90
-    MacOSUpdateDataUrl: http://192.168.50.90
-    IOSUpdateDataUrl: http://192.168.50.90
-    AndroidUpdateDataUrl: http://192.168.50.90
-    WebGLUpdateDataUrl: http://192.168.50.90
+    WindowsUpdateDataUrl: http://192.168.50.7
+    MacOSUpdateDataUrl: http://192.168.50.7
+    IOSUpdateDataUrl: http://192.168.50.7
+    AndroidUpdateDataUrl: http://192.168.50.7
+    WebGLUpdateDataUrl: http://192.168.50.7
     m_CurUseServerChannel: 
     m_ServerChannelInfos: []
     namespace: GameLogic
