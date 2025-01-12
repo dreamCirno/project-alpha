@@ -44,7 +44,6 @@ public partial class GameApp : Singleton<GameApp>
     private async UniTaskVoid StartLobby()
     {
         await GameModule.Scene.LoadScene("lobby").ToUniTask();
-        ");
     }
 
     /// <summary>
