@@ -6,10 +6,12 @@ using UnityEngine;
 
 public class TEngineSettingsProvider : SettingsProvider
 {
+    const string k_SettingsPathHeader = "Assets/TEngine/ResRaw/Resources/";
     const string k_SettingsPath = "Assets/TEngine/ResRaw/Resources/TEngineGlobalSettings.asset";
     private const string headerName = "TEngine/TEngineSettings";
     private SerializedObject m_CustomSettings;
 
+    private static string m_SettingsPath = k_SettingsPath;
     internal static SerializedObject GetSerializedSettings()
     {
         return new SerializedObject(SettingsUtils.GlobalSettings);
@@ -17,7 +19,12 @@ public class TEngineSettingsProvider : SettingsProvider
 
     public static bool IsSettingsAvailable()
     {
-        return File.Exists(k_SettingsPath);
+        var pathes = AssetDatabase.FindAssets("TEngineGlobalSettings", new string[2] { k_SettingsPathHeader,"Packages/com.tengine/" });
+        if (pathes.Length > 0)
+        {
+            m_SettingsPath = AssetDatabase.GUIDToAssetPath(pathes[0]);
+        }
+        return pathes.Length > 0;
     }
 
     public override void OnActivate(string searchContext, VisualElement rootElement)
@@ -29,18 +36,36 @@ public class TEngineSettingsProvider : SettingsProvider
     public override void OnDeactivate()
     {
         base.OnDeactivate();
-        SaveAssetData(k_SettingsPath);
+
+        // 确保只有在有修改时才保存
+        if (m_CustomSettings != null && m_CustomSettings.hasModifiedProperties)
+        {
+            EditorApplication.delayCall += () => SaveAssetData(k_SettingsPath);
+        }
     }
-    
+
     void SaveAssetData(string path)
     {
         TEngineSettings old = AssetDatabase.LoadAssetAtPath<TEngineSettings>(k_SettingsPath);
+        if (old == null)
+        {
+            Debug.LogError($"Failed to load TEngineSettings from path: {k_SettingsPath}");
+            return;
+        }
+
         TEngineSettings data = ScriptableObject.CreateInstance<TEngineSettings>();
         data.Set(old.FrameworkGlobalSettings, old.BybridCLRCustomGlobalSettings);
-        AssetDatabase.DeleteAsset(path);
-        AssetDatabase.CreateAsset(data, path);              
-        AssetDatabase.SaveAssets();
-        AssetDatabase.Refresh();
+
+        if (AssetDatabase.DeleteAsset(path))
+        {
+            AssetDatabase.CreateAsset(data, path);
+            AssetDatabase.SaveAssets();
+            AssetDatabase.Refresh();
+        }
+        else
+        {
+            Debug.LogError($"Failed to delete existing asset at path: {path}");
+        }
     }
 
 

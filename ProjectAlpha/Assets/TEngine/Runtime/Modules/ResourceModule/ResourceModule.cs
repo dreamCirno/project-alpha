@@ -32,6 +32,7 @@ namespace TEngine
 
         [SerializeField] private float m_MaxUnloadUnusedAssetsInterval = 300f;
 
+        [SerializeField] private bool m_UseSystemUnloadUnusedAssets = true;
         /// <summary>
         /// 当前最新的包裹版本。
         /// </summary>
@@ -40,7 +41,16 @@ namespace TEngine
         /// <summary>
         /// 资源包名称。
         /// </summary>
-        public string PackageName = "DefaultPackage";
+        [SerializeField] private string packageName = "DefaultPackage";
+
+        /// <summary>
+        /// 资源包名称。
+        /// </summary>
+        public string PackageName
+        {
+            get => packageName;
+            set => packageName = value;
+        }
 
         /// <summary>
         /// 资源系统运行模式。
@@ -148,6 +158,15 @@ namespace TEngine
             get => m_MaxUnloadUnusedAssetsInterval;
             set => m_MaxUnloadUnusedAssetsInterval = value;
         }
+        
+        /// <summary>
+        /// 使用系统释放无用资源策略。
+        /// </summary>
+        public bool UseSystemUnloadUnusedAssets
+        {
+            get => m_UseSystemUnloadUnusedAssets;
+            set => m_UseSystemUnloadUnusedAssets = value;
+        }
 
         /// <summary>
         /// 获取无用资源释放的等待时长，以秒为单位。
@@ -157,12 +176,12 @@ namespace TEngine
         /// <summary>
         /// 获取资源只读路径。
         /// </summary>
-        public string ReadOnlyPath => m_ResourceManager.ReadOnlyPath;
+        public string ReadOnlyPath => m_ResourceManager?.ReadOnlyPath;
 
         /// <summary>
         /// 获取资源读写路径。
         /// </summary>
-        public string ReadWritePath => m_ResourceManager.ReadWritePath;
+        public string ReadWritePath => m_ResourceManager?.ReadWritePath;
 
         [SerializeField]
         private float m_AssetAutoReleaseInterval = 60f;
@@ -671,6 +690,10 @@ namespace TEngine
                 m_PreorderUnloadUnusedAssets = false;
                 m_LastUnloadUnusedAssetsOperationElapseSeconds = 0f;
                 m_AsyncOperation = Resources.UnloadUnusedAssets();
+                if (m_UseSystemUnloadUnusedAssets)
+                {
+                    m_ResourceManager.UnloadUnusedAssets();
+                }
             }
 
             if (m_AsyncOperation is { isDone: true })

@@ -2,7 +2,6 @@ using System.Collections.Generic;
 using System.Reflection;
 using Cysharp.Threading.Tasks;
 using GameBase;
-using KyuuGames;
 using TEngine;
 
 /// <summary>
@@ -45,8 +44,8 @@ public partial class GameApp : Singleton<GameApp>
     private async UniTaskVoid StartLobby()
     {
         await GameModule.Scene.LoadScene("lobby").ToUniTask();
+        ");
     }
-
 
     /// <summary>
     /// 关闭游戏。

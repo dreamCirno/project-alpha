@@ -831,7 +831,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_MinUnloadUnusedAssetsInterval: 60
   m_MaxUnloadUnusedAssetsInterval: 300
-  PackageName: DefaultPackage
+  m_UseSystemUnloadUnusedAssets: 1
+  packageName: DefaultPackage
   playMode: 2
   m_UpdatableWhilePlaying: 0
   VerifyLevel: 1
